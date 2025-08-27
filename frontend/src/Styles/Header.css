@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&display=swap');
+
+* {
+  font-family: "Anonymous Pro", monospace;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 10px 40px;
+  border-bottom: 1px solid #eee;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.heading img {
+  width: 40px;
+}
+
+.heading h1 {
+  color: #631BFF;   
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.links {
+  display: flex;
+  gap: 30px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+.links a:hover {
+  color: #631BFF;
+}
+
+
