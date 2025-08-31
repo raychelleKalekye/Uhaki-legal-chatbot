@@ -2,7 +2,7 @@ import React, { useState, useEffect, useLayoutEffect, useRef } from 'react';
 import Disclaimer from '../Components/Disclaimer';
 import MessageList from '../Components/MessageList';
 import MessageInput from '../Components/MessageInput';
-import Footer from '../Components/Footer';
+
 import '../Styles/ChatPage.css';   
 const ChatPage = () => {
   const [messages, setMessages] = useState([]);
@@ -37,7 +37,6 @@ const ChatPage = () => {
         <div className="BottomInner">
           <MessageInput onSend={handleSend} />
           <div className="Disclaimer"><Disclaimer /></div>
-          <div className="FooterWrap"><Footer /></div>
         </div>
       </div>
     </div>
