@@ -7,11 +7,12 @@
   position: sticky; 
   top: 0;
   z-index: 10;
+  height:30px;
 }
 
 
 .chatHeader img {
-  width: 100px;
+  width: 90px;
   border-radius: 50%;
 }
 
