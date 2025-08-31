@@ -1,0 +1,1058 @@
+﻿LABOUR RELATIONS ACT
+CAP. 233
+An Act of Parliament to consolidate the law relating to trade unions and trade disputes, to provide for the registration, regulation, management and democratisation of trade unions and employers organisations or federations, to promote sound labour relations through the protection and promotion of freedom of association, the encouragement of effective collective bargaining and promotion of orderly and expeditious dispute settlement, conducive to social justice and economic development and for connected purposes
+Part I – PRELIMINARY
+	1.	Short title
+This Act may be cited as the Labour Relations Act.
+	2.	Interpretation
+In this Act, unless the context otherwise requires—
+"authorised representative" means— (a)	the general secretary of a trade union;
+(b) an employer or the chief executive officer of an employer;
+(c) the secretary of a group of employers;
+(d) the chief executive or association secretary of an employers’ organisation; or
+(e) any person appointed in writing by an authorised representative to perform the functions of the authorised representative;
+"award" means an award made by the Employment and Labour Relations Court;
+"Board" means the National Labour Board;
+"Cabinet Secretary" means the Cabinet Secretary for the time being responsible for labour matters;
+"collective agreement" means a written agreement concerning any terms and conditions of employment made between a trade union and an employer, group of employers or organisation of employers;
+"Committee of Inquiry" means a Committee of Inquiry appointed by the Cabinet Secretary to inquire into any matter relevant to a trade dispute;
+"contract of service" means any agreement, whether oral or in writing, expressed or implied, to employ or to serve as an employee in return for remuneration, and includes contract of apprenticeship and indentured learnership;
+"conciliation" means the act or process of conciliating;
+"contract of apprenticeship and learnership" means a contract of service where there is—
+(a) an obligation on the employer to take all reasonable steps to ensure that the employee is taught, and acquires the knowledge and skills of that industry, by means of practical training received in the cause of the employee’s training and employment; and
+(b) a provision for formal recognition of the fact that the employee has acquired the knowledge and skills intended to be acquired where the employee has done so;
+"employee" means a person employed for wages or a salary and includes an apprentice and an indentured learner;
+"employer" means any person, public body, firm, corporation or company, who or which has entered into a contract of service to employ any individual, and includes the agent, foreman, manager or factor of such person, public body, firm, corporation or company;
+"employers’ organisation" means any number of employers associated together for the purpose, whether by itself or with other purposes, of regulating relations between employers and their employees or the trade unions representing those employees;
+"employment matter" means a matter concerning any terms or conditions of, or affecting, employment;
+"executive board" means the body, by whatever name called, to which the management of the affairs of a trade union is entrusted, and includes the chairman, the general secretary and the treasurer of any trade union;
+"executive director" means the head of an employers’ organisation or employers’ federation;
+"federation" means a federation of trade unions or a federation of employers;
+"funds of a trade union" includes all funds received for and on behalf of a trade union with the exception of provident fund dues;
+"general-secretary" means the national secretary of a registered trade union;
+"group of employers" means two or more employers who voluntarily associate together for the purposes of negotiating with a trade union and who do not form an employers’ organisation;
+"Industrial Relations Charter" means a tripartite agreement between the Government, the most representative employers’ organisation, and the most representative employees organisation for the regulation of labour and industrial relations in Kenya;
+"Judge" means a Judge of the Employment and Labour Relations Court;
+"lock-out" means the closing of a place of employment, the suspension of work, or the refusal by an employer to continue to employ any number of employees—
+(a) for the purpose of compelling any employees of the employer to accept any demand in respect of a trade dispute; and
+(b) not for the purpose of finally terminating employment;
+"officer" when used with reference to a trade union or employers’ organisation, means a person employed by that trade union or employers’ organisation;
+"official" when used with reference to a trade union or employers’ organisation, means a duly elected official of a trade union or employers’ organisation including a member of the executive and a branch official;
+"procedural agreement" means any agreement which sets out a dispute resolution procedure in that agreement;
+"recognition agreement" means an agreement in writing made between a trade union and an employer, group of employers or employers’ organisation regulating the recognition of the trade union as the representative of the interests of unionisable employees employed by the employer or by members of an employers’ organisation;
+"redundancy" means the loss of employment, occupation, job or career by involuntary means through no fault of an employee, involving termination of employment at the initiative of the employer, where the services of an employee are superfluous and the practice commonly known as abolition of office, job or occupation and loss of employment;
+"registered employers’ organisation" means an employers’ organisation registered or deemed to be a registered employers’ organisation under this Act;
+"registered office" means the registered head office of a trade union;
+"registered trade union" means a trade union registered or deemed to be registered as a trade union under this Act;
+"Registrar" means the Registrar of Trade Unions;
+"sector" means an industry or service or part of an industry or service;
+"strike" means the cessation of work by employees acting in combination, or a concerted refusal or a refusal under a common understanding of employees to continue to work for the purpose of compelling their employer or an employers’ organisation of which their employer is a member to accede to any demand in respect of a trade dispute;
+"trade dispute" means a dispute or difference, or an apprehended dispute or difference, between employers and employees, between employers and trade unions, or between an employers’ organisation and employees or trade unions, concerning any employment matter, and includes disputes regarding the dismissal, suspension or redundancy of employees, allocation of work or the recognition of a trade union;
+"trade union" means an association of employees whose principal purpose is to regulate relations between employees and employers, including any employers’ organisation;
+"unionisable employee" in relation to any trade union means the employees eligible for membership of that trade union.
+	3.	Application
+This Act shall not apply to any person in respect of his employment or service—
+(a) in the armed forces, or in any reserve force thereof;
+(b) in the Kenya Police, the Administration Police Service, the Kenya Prisons Service and the National Youth Service, or in any reserve force or service thereof.
+Part II – FREEDOM OF ASSOCIATION
+	4.	Employee’s right to freedom of association
+(1) Every employee has the right to—
+(a) participate in forming a trade union or federation of trade unions;
+(b) join a trade union; or (c)	leave a trade union.
+(2) Every member of a trade union has the right, subject to the constitution of that trade union to— (a)	participate in its lawful activities;
+(b) participate in the election of its officials and representatives;
+(c) stand for election and be eligible for appointment as an officer or official and, if elected or appointed, to hold office; and
+(d) stand for election or seek for appointment as a trade union representative and, if elected or appointed, to carry out the functions of a trade union representative in accordance with the provisions of this Act or a collective agreement.
+(3) Every member of a trade union that is a member of a federation of trade unions has the right, subject to the constitution of that federation to—
+(a) participate in its lawful activities;
+(b) participate in the election of any of its office bearers or officials; and
+(c) stand for election or seek for appointment as an office bearer or official and, if elected or appointed, to hold office.
+	5.	Protection of employees
+(1) No person shall discriminate against an employee or any person seeking employment for exercising any right conferred in this Act.
+(2) Without limiting the general protection conferred by sub-section (1), no person shall do, or threaten to do any of the following—
+(a) require an employee or a person seeking employment not to be or become a member of a trade union or to give up membership of a trade union;
+(b) prevent an employee or person seeking employment from exercising any right conferred by this Act or from participating in any proceedings specified in this Act;
+(c) dismiss or in any other way prejudice an employee or a person seeking employment—
+(i) because of past, present or anticipated trade union membership;
+(ii) for participating in the formation or the lawful activities of a trade union;
+(iii) for exercising any right conferred by this Act or participating in any proceedings specified in this Act; or
+(iv) for failing or refusing to do something that an employee may not lawfully permit or require an employee to do.
+(3) No person shall give an advantage, or promise to give an advantage, to an employee or person seeking employment in exchange for the person not exercising any right conferred by this Act or not participating in any proceedings in terms of this Act:
+Provided that nothing in this section shall prevent the parties to a dispute from concluding an agreement to settle that dispute.
+	6.	Employer’s right to freedom of association
+(1) Every employer has the right to—
+(a) participate in forming an employers’ organisation or a federation of employers organisations; and
+(b) subject to its constitution, join an employers organisation or a federation of employers’ organisations.
+(2) Every member of an employers’ organisation has the right, subject to the constitution of that employers’ organisation to—
+(a) participate in its lawful activities;
+(b) participate in the election of any of its office bearers or officials; and
+(c) stand for election or seek for appointment as an office bearer or official and, if elected or appointed, to hold office.
+(3) Every employer, whether or not that employer is a member of an employers’ organisation that is a member of a federation of employers organisations, has the right, subject to the constitution of that federation to—
+(a) participate in its lawful activities;
+(b) participate in the election of any of its office bearers or officials;
+(c) stand for election and be eligible for appointment as an office bearer or official; and
+(d) stand for election or seek appointment as an office bearer and if elected or appointed to hold office.
+(4) An employer that is a juristic person may exercise the right to stand for election and hold office in an employer’s organisation or federation of employers’ organisation through a representative.
+	7.	Protection of employers’ rights
+(1) No person shall discriminate against an employer for exercising any right conferred by this Act.
+(2) Without limiting the general protection conferred by sub-section (1), no person shall do, or threaten to do any of the following—
+(a) require an employer not to be or become a member of an employers’ organisation or to give up membership of an employer organisation;
+(b) prevent an employer from exercising any right conferred by this Act or from participating in any proceedings specified in this Act; (c)	in any way prejudice an employer—
+(i) because of past, present or anticipated employers’ organisation membership;
+(ii) for participation in the formation of the lawful activities of an employers’ organisation;
+(iii) for exercising any right conferred by this Act or participation in any proceedings specified in this Act; or
+(iv) failing or refusing to do something that an employer may not lawfully do.
+(3) No person shall give an advantage, or promise to give an advantage to an employer in exchange for the employer not exercising any right conferred by this Act or not participating in any proceedings provided for in this Act:
+Provided that, nothing in this section shall prevent the parties to a dispute from concluding an agreement to settle that dispute.
+	8.	Rights of trade unions, employers’ organisations and federations
+Every trade union, employers’ organisation or federation has the right to— (a)	subject to the provisions of this Act—
+(i) determine its own constitution and rules; and
+(ii) hold elections to elect its officers;
+(b) plan and organise its administration and lawful activities;
+(c) participate in forming a federation of trade unions or a federation of employers organisations;
+(d) join a federation of trade unions or a federation of employers organisations, subject to its constitution, and to participate in its lawful activities; and
+(e) affiliate with, and to participate in the affairs of any international workers organisation or international employers organisation or the international labour organisation, and to contribute or receive financial assistance from those organisations.
+	9.	Provision may not be varied by agreement
+A provision in any contract of employment or collective agreement, whether concluded before or after the commencement of this Act, that contradicts or limits any provision of this section is invalid, unless the contractual provision is expressly permitted by this Act.
+10.	Disputes under Part
+If there is a dispute about the interpretation or application of any provision of this Part, any party to the dispute may refer the dispute in writing—
+(a) to the Cabinet Secretary to appoint a conciliator as specified in Part VIII; or
+(b) if the dispute is not resolved at conciliation, to the Employment and Labour Court for adjudication.
+11.	Burden of proof
+In any proceedings under this Act—
+(a) a party that alleges that a right or protection conferred by this part has been infringed shall prove the facts of the conduct; and
+(b) the party who is alleged to have engaged in that conduct shall prove that their conduct did not infringe any provision of this Part.
+Part III – ESTABLISHMENT AND REGISTRATION OF TRADE UNIONS AND EMPLOYERS’ ORGANISATIONS
+12.	Establishment of a trade union or employers’ organisation
+(1) No person shall recruit members for the purpose of establishing a trade union or employers’ organisation unless that person has obtained a certificate from the Registrar issued under this section.
+(2) An application for the certificate referred to in subsection (1) shall—
+(a) be signed by two persons who are promoting the establishment of the trade union or employers’ organisation;
+(b) specify the name of the proposed trade union or employers’ organisation; and (c)	contain any other prescribed information.
+(3) The Registrar shall issue a certificate within thirty days of receiving an application unless— (a)	the application is defective; or
+(b)	the name of the proposed trade union or employers’ organisation is the same as that of an existing trade union or employers’ organisation or is sufficiently similar so as to mislead or cause confusion.
+(4) A certificate issued under subsection (3) shall specify that—
+(a) the promoters may undertake lawful activities in order to establish a trade union or employers’ organisation; and
+(b) an application for the registration of the trade union or employers’ organisation shall be made to the Registrar within six months of the date of issue of the certificate.
+(5) The Registrar may withdraw a certificate issued under this section if the Registrar has reason to believe that—
+(a) the certificate was obtained by fraud, misrepresentation or as a result of a mistake; or
+(b) any person has undertaken an unlawful activity, whether in contravention of this Act or any other law, on behalf of the proposed trade union or employers’ organisation.
+13.	Application to register a trade union or employers’ organisation
+A trade union or employers’ organisation shall apply to the Registrar for registration within six months of receiving a certificate issued under section 12.
+14.	Requirements for registering a trade union
+(1) A trade union may apply for registration if—
+(a) the trade union has applied for registration in accordance with this Act;
+(b) the trade union has adopted a constitution that complies with the requirements of this Act, including the requirements set out in the First Schedule;
+(c) the trade union has an office and postal address within Kenya; (d)	no other trade union already registered is—
+(i) in the case of a trade union of employers or of employees, sufficiently representative of the whole or of a substantial proportion of the interests in respect of which the applicants seek registration; or
+(ii) in the case of an association of trade unions, sufficiently representative of the whole or a substantial proportion of the trade unions eligible for membership thereof:
+Provided that the Registrar shall, by notice in the Gazette and in one national daily newspaper with wide circulation, notify any registered trade union, federation of trade unions or employers’ organisations which appear to him to represent the same interest as the applicants of the receipt of such application and shall invite the registered trade union federation of trade unions or employers’ organisation concerned to submit in writing, within a period to be specified in the notice, any objections to the registration;
+(e) subject to subsection (2), only members in a sector specified in the constitution qualify for membership of the trade union;
+(f) the name of the trade union is not the same as that of an existing trade union, or sufficiently similar so as to mislead or cause confusion;
+(g) the decision to register the trade union was made at a meeting attended by at least fifty members of the trade union;
+(h) the trade union is independent from the control, either direct or indirect, of any employer or employers’ organisations; and
+(i) the trade union’s sole purpose is to pursue the activities of a trade union.
+(2) Notwithstanding the provisions of subsection (1)(d), the Registrar may register a trade union consisting of persons working in more than one sector, if the Registrar is satisfied that the constitution contains suitable provisions to protect and promote the respective sectoral interests of the employees.
+15.	Requirements for registering employers’ organisation
+(1) An employers’ organisation may apply for registration if—
+(a) the employers’ organisation has applied for registration in accordance with the requirements of this Act;
+(b) the employers’ organisation has adopted a constitution that complies with the requirements of this Act, including the requirements of the First Schedule;
+(c) the employers’ organisation has an office and postal address within Kenya; (d)	no other employers’ organisation already registered is—
+(i) in the case of a trade union of employers or of employees, sufficiently representative of the whole or of a substantial proportion of the interests in respect of which the applicants seek registration; or
+(ii) in the case of an association of trade unions, sufficiently representative of the whole or a substantial proportion of the trade unions eligible for membership thereof:
+Provided that the Registrar shall, by notice in the Gazette and in any one national daily newspaper with wide circulation, notify any registered trade union federation of trade unions or employers’ organisation which appears to him to represent the same interest as the applicants of the receipt of such application and shall invite the registered trade union federation of trade unions or employers’ organisation concerned to submit in writing within a period to be specified in the notice, any objections to the registration;
+(e) subject to subsection (2), the constitution of the employers’ organisation specifies that only employers within a specified sector qualify for membership;
+(f) the name of the employers’ organisation is not the same as that of an existing employers’ organisation or sufficiently similar so as to mislead or cause confusion;
+(g) the decision to register was taken at a meeting attended by at least four members;
+(h) the employers’ organisation is independent from the control, either directly or indirectly of any trade union or federation of trade unions;
+(i) the employers’ organisation’s primary purpose is to conduct the activities of an employer’s organisation.
+(2) Notwithstanding the provisions of subsection (1)(c), the Registrar may register an employers’ organisation consisting of employers in more than one sector, if the Registrar is satisfied that the constitution contains suitable provision to protect and promote the respective sectoral interests of employers.
+16.	Requirements for registering federation of trade unions
+The requirements for registration as federation of trade unions are— (a)	the federation has applied for registration in accordance with this Act;
+(b) the federation has adopted a constitution that complies with the requirements of this Act;
+(c) the federation has an office and postal address in Kenya;
+(d) the constitution of the federation specifies that its members are registered trade unions only;
+(e) the federation was established at a meeting attended by the representatives of at least three registered trade unions with the mandate of their respective executive boards;
+(f) the name of the federation is not the same as one of an existing trade union or federation or sufficiently similar so as to mislead or cause confusion; and
+(g) the federation is independent from the control, either, directly or indirectly, of any employers’ organisation or federation of employers.
+17.	Requirements for registering a federation of employers
+The requirements for registration of a federation of employers are— (a)	the federation has applied for registration in accordance with this Act;
+(b) the federation has adopted a constitution that complies with the requirements of this Act;
+(c) the federation has an office and postal address in Kenya;
+(d) the constitution of the federation specifies that its members are employers or registered employers’ organisations;
+(e) any other trade union already registered is—
+(i) in the case of a trade union of employers or of employees, sufficiently representative of the whole or of a substantial proportion of the interests in respect of which the applicants seek registration; or
+(ii) in the case of an association of trade unions, sufficiently representative of the whole or a substantial proportion of the trade unions eligible for membership thereof:
+Provided that the Registrar shall, by notice in the Gazette and in any one national daily newspaper with wide circulation, notify any registered trade union, federation of trade unions or employers’ organisation which appears to him to represent the same interest as the applicants of the receipt of such application and shall invite the registered trade union or federation of trade unions or employers’ organisation concerned to submit, in writing within a period to be specified in the notice, any objections to the registration;
+(f) the federation was established at a meeting attended by the representatives of at least three members;
+(g) the name of the federation is not the same as one of an existing federation of employers or sufficiently similar so as to mislead or cause confusion;
+(h) it is independent from the control, either directly or indirectly of any trade union or federation of trade unions.
+18.	Application for registration
+(1) An application to register a trade union, employers’ organisation or federation shall be made to the Registrar in Form A set out in the Second Schedule, accompanied by— (a)	the prescribed fee;
+(b) a certified copy of the constitution of the trade union or employers’ organisation; and
+(c) a certified copy of the attendance register and minutes of the meeting at which the trade union, employers’ organisation or federation was established.
+(2) An application to register a trade union shall be signed by seven members of the trade union.
+(3) The Registrar may—
+(a) call for further information for the purposes of evaluating an application for registration; or
+(b) give an applicant for registration an opportunity to rectify the application within a period specified by the Registrar.
+(4) If the proposed name of a trade union, employers’ organisation or federation is the same or sufficiently similar to that of an existing organisation so as to mislead or cause confusion, the
+Registrar shall—
+(a) request the applicant for registration to alter the name of the trade union or employers’ organisation or federation; or
+(b) not register the trade union, employers organisation or federation until a suitable alteration has been made.
+19.	Registration of trade unions, employers’ organisation or federation
+(1) If the Registrar is satisfied, after consulting the Board, that a trade union, employers’ organisation or federation that has applied for registration meets the requirements of the Act, the Registrar shall register that trade union, employers organisation or federation and shall—
+(a) issue a certificate of registration in Form B set out in the Second Schedule; and
+(b) enter the name and details of the trade union, employers’ organisation or federation in the appropriate register in Form C set out in the Second Schedule.
+(2) A certificate of registration issued under subsection (1) is conclusive evidence that the trade union, employers’ organisation or federation has been duly registered under this Act unless it is proved that the certificate has been withdrawn or cancelled.
+20.	Refusal to register a trade union, employers’ organisation or federation
+If the Registrar is not satisfied that a trade union, employers’ organisation or federation meets the requirements for registration and refuses the application for registration, the Registrar shall advise the trade union, employers’ organisation or federation of the reasons for that refusal in Form D set out in the Second Schedule.
+21.	Effect of registration
+A trade union, employers’ organisation or federation shall be registered as a body corporate—
+(a)	with perpetual succession and a common seal; (b)	with the capacity in its own name to—
+(i) sue and be sued; and
+(ii) enter into contracts; and
+	(c)	hold, purchase or otherwise acquire and dispose of movable and immovable property.
+22.	Objects in restraint of trade not unlawful
+A registered trade union, employers’ organisation or federation is not an association in restraint of trade and its objects may not, by reason only that they are in restraint of trade—
+(a) be deemed to be unlawful so as to render any member of the trade union liable to criminal prosecution for conspiracy or otherwise; or
+(b) be unlawful so as to render void or voidable any agreement or trust.
+23.	Consequences of failure to register
+(1) No person shall perform any act in furtherance of a trade union or employers’ organisation unless that trade union or employers’ organisation—
+(a) is registered under this Act; or
+(b) an application for its registration is being considered.
+(2) Notwithstanding the provisions of subsection (1), an employers’ organisation or trade union may undertake activities in order to secure compliance with the requirements for registration if—
+(a) the Registrar has issued a certificate specified under section 12; and
+(b) less than six months have elapsed from the time the Registrar issued a notice as requested under section 14.
+(3) The provisions of this section do not apply to any activity undertaken for the purpose of—
+(a) defending proceedings against a trade union or employers’ organisations; or
+(b) dissolving the trade union or employers’ organisation and disposing of its funds in accordance with its rules.
+(4) No person shall act or purport to act as an officer or official of a trade union or employers’ organisation that is not registered or has had its registration cancelled.
+24.	Registered office
+(1) Every trade union, employers’ organisation or federation shall—
+(a) have a physical office and postal address to which all communication and notices may be addressed; and
+(b) give notice of its physical office and postal address and of any change of office or address to the Registrar in Form E set out in the Second Schedule, who shall enter it in the appropriate register.
+(2) No trade union, employers’ organisation or federation shall— (a)	operate without having a registered physical office; and
+(b)	fail to give notice of its office and address or any change of office or address as required under subsection (1).
+25.	Registration of branches
+(1) A trade union, employers’ organisation or federation shall apply to the Registrar to register its branches in Form F set out in the Second Schedule.
+(2) An application to register a branch shall—
+(a) be made by an authorised representative within thirty days of the formation of the branch;
+(b) specify the name of the branch, its postal address and the place at which the branch will meet or conduct its business; and
+(c) specify the titles, names, ages, occupation and place of work of all officials of the branch.
+(3) The authorised representative specified under subsection (2) shall give notice to the Registrar in writing of the dissolution of any branch of a trade union, employers’ organisation or federation.
+(4) The Registrar—
+(a) shall maintain registers reflecting the branches of trade unions, employers’ organisations and federations; and
+(b) may request further information before deciding whether to register a branch or remove its name from the relevant register.
+(5) No person shall act or purport to act as an official of a branch of a trade union, employers’ organisation or federation if that branch is not registered or has had its registration cancelled.
+26.	Amalgamation of trade unions, employers’ organisations or federations
+(1) A registered trade union, employers’ organisation or federation may amalgamate with one or more registered trade unions or employers’ organisations, as the case may be.
+(2) An amalgamation of trade unions, employers organisation or federation may occur without a dissolution or division of the funds of the amalgamating trade unions, employers’ organisations or federations.
+(3) An amalgamation under this section may only occur if—
+(a) each of the amalgamating trade unions, employers’ organisations or federations has conducted a secret ballot in compliance with any prescribed requirements;
+(b) at least fifty per cent of the members of each trade union, employers’ organisation or federation entitled to vote have voted; and
+(c) the number of members who vote in favour of the proposed amalgamation exceeds by at least twenty percent the number of members who vote against the amalgamation.
+(4) Notice of a proposal to amalgamate a trade union, employers’ organisation or federation shall be in Form G set out in the Second Schedule and shall be signed by the authorized representative of each party to the amalgamation.
+(5) If the amalgamated trade union, employers’ organisation or federation proposes to represent members in more than one sector, the Registrar may only register the amalgamated trade union, employers’ organisation or federation if satisfied that the constitution contains suitable provision to protect and promote the respective sectoral interests of employees or employers.
+(6) Where the amalgamated trade union, employers’ organisation or federation is registered under this
+Act, the Registrar shall—
+(a) issue a certificate of amalgamation in Form H set out in the Second Schedule; and
+(b) remove the amalgamating trade unions or employers’ organisations from the relevant register.
+(7) The Registrar may not register the amalgamated trade union, employers’ organisation or federation if its name is the same or sufficiently similar to that of an existing union, organisation or federation so as to be likely to mislead or cause confusion.
+(8) Where the Registrar has registered an amalgamated trade union, employers’ organisation or federation—
+(a) all the assets, rights, obligations and liabilities of the amalgamating trade unions, employers’ organisations or federations devolve upon and invest in the amalgamated trade union, employers’ organisation or federation; and
+(b) the amalgamated trade union, employers’ organisation or federation succeeds the amalgamating trade union, employers’ organisations or federations in respect of—
+(i) any right that the amalgamating trade unions, employers’ organisations or federations enjoyed;
+(ii) any fund established under this Act or any other law;
+(iii) any court proceedings, court order, arbitration award or collective agreement or other agreement;
+(iv) any written authorization by a member for the periodic deduction of levies or subscription due to the amalgamating organisation; and
+(v) any notice by the Cabinet Secretary in respect of the deduction of trade union subscriptions as specified in Part VI.
+27.	Change of name or constitution of trade union, employers’ organisation or federation
+(1) A trade union, employers’ organisation or federation may resolve to—
+(a) change or replace its constitution; or (b)	change its name.
+(2) A registered trade union, employers’ organisation or federation may apply to the Registrar to approve a change of name or an amendment to its constitution and rules by submitting to the
+Registrar—
+(a) a notice in Form I or Form J, as the case may be, set out in the Second Schedule, duly completed and signed by the secretary;
+(b) a copy of the resolution containing details of the change; and
+(c) a certificate signed by the secretary stating that the resolution was passed in accordance with the constitution and rules.
+(3) Notice of the change specified in subsection (2) shall be submitted to the Registrar within fourteen days of any resolution to change the name or constitution.
+(4) Upon receipt of the notice of change of name or constitution, the Registrar shall give a notice of at least twenty-one days in the Gazette and in three daily newspapers of national circulation inviting any objections to the proposed change of name or constitution by members of the trade union and where any such objection is raised, the Registrar shall investigate the complaint and the grounds relied upon and may—
+(a) refer the matter to the Employment and Labour Relations Court;
+(b) refuse to accept the proposed amendments; or
+(c) make any orders that he may deem fit in the circumstances.
+(5) The Registrar may approve a change of name or to the constitution if the applicable requirements of registration of a trade union, employer’s organisation or federation are met.
+(6) The Registrar shall issue a certificate of change of name or change of the constitution in Form K or Form L, as the case may be, set out in the Second Schedule.
+(7) Any change of name or change to the constitution and rules of a registered trade union, organisation or federation shall take effect when the Registrar approves the change under this section.
+(8) A change in the name of a trade union, employers’ organisation or federation does not— (a)	affect any right or obligation of that trade union, employers’ organisation or federation;
+(b)	render defective any legal proceedings by or against it and any proceeding instituted under the former name may be continued or commenced by or against it under the new name.
+(9) Where the Registrar refuses to approve a change under this section, the Registrar shall give written notice of that decision and the reasons for the refusal.
+28.	Cancellation or suspension of registration
+(1) The Registrar shall cancel or suspend the registration of a trade union, employers’ organisation or federation if—
+(a) the trade union, employers organisation or federation is dissolved; or
+(b) the Registrar is satisfied that the trade union, employers’ organisation or federation has ceased to exist.
+(2) The Registrar may cancel or suspend the registration of a trade union, employers’ organisation or federation if the Registrar is satisfied that the trade union, employers’ organisation or federation—
+(a) was registered as a result of fraud, misrepresentation or mistake;
+(b) is operating in contravention of this Act;
+(c) is being used for an unlawful purpose;
+(d) has failed to conduct elections in accordance with the requirements of this Act; or (e)	is not independent.
+(3) The Registrar shall not cancel or suspend registration of a trade union, employers’ organisation or federation under subsection (2), unless the Registrar has—
+(a) given the trade union, employers’ organisation or federation at least two months notice of his intention to suspend or cancel its registration in Form M set out in the Second Schedule; and
+(b) considered any representations made by the trade union, employers’ organisation or federation within that two month period.
+(4) If the Registrar cancels or suspends the registration of a trade union, employers’ organisation or federation, the Registrar shall—
+(a) notify it of that decision in Form N set out in the Second Schedule; and (b)	give reasons for the decision.
+(5) A trade union, employers’ organisation or federation may appeal against a decision of the Registrar to the Employment and Labour Relations Court.
+29.	Notice of dissolution
+(1) When a trade union, employers’ organisation or federation is dissolved, the trade union, employers’ organisation or federation shall give notice of the dissolution in Form O set out in the Second
+Schedule which—
+(a) shall be submitted to the Registrar within fourteen days of the resolution to dissolve; and (b)	shall be signed—
+(i) by an authorized representative; and
+(ii) by seven members of a trade union or three members of an employers’ organisation or federation.
+(2) The Registrar shall—
+(a) issue a certificate of dissolution in Form P set out in the Second Schedule; and
+(b) register the dissolution if satisfied that the dissolution complies with the applicable constitution.
+(3) The dissolution of a trade union, employer’s organisation or federation takes effect from the date of its registration.
+30.	Appeals against decision of Registrar
+Any person aggrieved by a decision of the Registrar made under this Act may appeal to the Employment and Labour Relations Court against that decision within thirty days of the decision.
+Part IV – OFFICIALS AND MEMBERS OF TRADE UNIONS AND EMPLOYERS’ ORGANISATIONS
+31.	Officials
+(1) The officials of a trade union or employers’ organisation shall be persons who are, or have been, engaged or employed in the sector for which the trade union or employers’ organisation is registered.
+(2) No person shall be an official of more than one trade union or employer’s organisation.
+(3) An official of a trade union may also be an official of a federation of trade unions to which the trade union is affiliated.
+(4) Notwithstanding the provisions of subsection (1)—
+(a) the general secretary of a trade union or the chief executive or association secretary of an employers’ organisation may be a person not engaged or employed in the sector concerned;
+(b) a person may be an official of more than one employer’s organisation; and
+(c) the Registrar may, on application by a trade union or employers’ organisation, permit any other office to be filled by a person not engaged or employed in the sector concerned.
+(5) No person who has been convicted of a criminal offence involving fraud or dishonesty shall be an official of a trade union or employer’s organisation.
+32.	Membership of minors
+An employee who has not attained the age of eighteen years but appears to be above the apparent age of sixteen years may be a member of—
+(a) a trade union and, unless the constitution provides otherwise, shall enjoy all the rights of a member; and
+(b) shall not be a member, the executive or a trustee of the trade union.
+33.	Voting members of trade union
+No person shall be a voting member of—
+(a) a trade union unless that person is employed in the sector for which the trade union is registered;
+(b) an employers’ organisation unless that person has a physical address or an office in Kenya; or
+(c) a registered trade union or employer’s organisation if that person’s subscriptions are more than thirteen weeks in arrears.
+34.	Election of officials
+(1) The election of officials of a trade union, employers’ organisation or federation shall be conducted in accordance with their registered constitutions.
+(2) The constitution of a trade union, employers’ organisation or federation shall—
+(a) not contain a provision that discriminates unfairly between incumbents and other candidates in elections; and
+(b) provide for the election, by secret ballot, of all officials of a trade union at least once every five years.
+(3) Notice of the election of officials under this section shall be given to the Registrar in the prescribed form within fourteen days of the completion of the election.
+(4) Disputes arising from, or connected directly or indirectly to, elections held under this section may be referred to the Industrial Court.
+(5) The Registrar may issue directions to a trade union, employers’ organisation or federation to ensure that elections are conducted in accordance with this section and their respective constitutions.
+35.	Notification of officials
+(1) A trade union, employers’ organisation or federation shall exhibit prominently—
+(a) in its registered office, a notice giving the names of all officials and their titles;
+(b) in every branch office the notice specified in paragraph (a) and in addition, a notice giving the names and titles of the officials of the branch.
+(2) Notice of any changes of officials or of the title of any officials shall be submitted to the Registrar in Form Q set out in the Second Schedule, within fourteen days after the change, together with the prescribed fee, and the Registrar shall register the change, subject to subsections (4) and (5).
+(3) Before registering any change of officials or correcting any register, the Registrar may require the production of any relevant evidence of the change.
+(4) If, after inquiry, the Registrar is not satisfied as to the validity of any appointment or the propriety of any proposed correction, the Registrar may refuse to register the change of officials or to correct the register.
+(5) No change of officials shall have effect until it is registered by the Registrar.
+(6) No person who is not registered by the Registrar in accordance with this section shall act or purport to act as an official of a trade union, employers’ organisation, or federation or of any branch.
+Part V – PROPERTY, FUNDS AND ACCOUNTS OF TRADE UNIONS, EMPLOYERS’ ORGANISATIONS AND FEDERATIONS
+36.	Trustees
+(1) The constitution of a trade union, employers’ organisation and federation shall provide—
+(a) for the appointment or election of at least three trustees; and
+(b) for the filling of any vacancy in the office of a trustee to ensure that there are at least three trustees at all times.
+(2) Subject to section 35, any officer, official or member of a trade union, employers’ organisation or federation may be a trustee.
+(3) No person who has been convicted of a crime involving fraud or dishonesty shall be a trustee.
+(4) Any person appointed as a trustee under this section shall comply with the duties and responsibilities of a trustee specified in the Trustees (Perpetual Succession) Act (Cap. 164).
+37.	Property to be vested in trustees
+(1) All property, whether movable or immovable, of a registered trade union, employers’ organisation or federation shall vest in its trustees for the use and benefit of the trade union, employers’ organisation or federation and its members.
+(2) The Cabinet Secretary may, with the consent of the trade union, employers’ organisation or federation concerned and by notice in the Gazette, authorize the transfer of specified property of that trade union, employers’ organisation or federation to persons other than its trustees, or for public purposes, other than the use of the trade union, employer’s organisation or federation and its members, which the Cabinet Secretary may prescribe.
+38.	Devolution of property
+Upon any change in the office of any trustee, the property of a registered trade union, employers’ organisation or federation shall vest in the trustees for the time being of the union for the same estate and interest as the former trustee or trustees had therein, and subject to the same trusts, without any transfer, conveyance or assignment.
+39.	Application of funds
+Subject to its rules and the provisions of this Act, the funds of a trade union, employers’ organisation or federation may be used only for the following purposes—
+(a) the payment of salaries, allowances and expenses to its officials;
+(b) the payment of expenses for the administration of the trade union, employer’s organisation or federation including auditing of its accounts;
+(c) the prosecution or defence of any legal proceedings to which the trade union, employers’ organisation or federation or any member thereof is a party, when the prosecution or defence is undertaken for the purpose of securing or protecting its rights or the rights of any member in any matter concerning employment or the application of any employment law;
+(d) the conduct of trade disputes on its behalf or on behalf of any member thereof;
+(e) the compensation of members for loss arising out of trade disputes;
+(f) the payment of allowances to members or their dependants on account of death, old age, sickness, accidents or unemployment of those members;
+(g) the payment of subscriptions and fees to any registered federation to which it is affiliated; and
+(h) subject to any condition determined by the Cabinet Secretary, any other object which the Cabinet Secretary may, on application of any trade union, employers’ organisation or federation, declare by notice in the Gazette to be an object for which its funds may be expended.
+40.	Prohibition of payment of fines or penalties
+The funds of a trade union, employers’ organisation or federation shall not be used, either directly or indirectly, to pay the whole or part of a fine or penalty imposed upon a person by sentence or order of any court, except a fine or penalty imposed upon the union or federation under this Act or its regulations.
+41.	Injunction to restrain misuse of funds
+(1) The Employment and Labour Relations Court may grant an injunction restraining unauthorized or unlawful expenditure of the funds of a trade union, employer’s organisation or federation on application by the Registrar, or by five or more persons having a sufficient interest in the relief sought.
+(2) If, when granting an injunction under this section the Employment and Labour Relations Court cancels the registration of a trade union, employers’ organisation or federation, the court may order that the funds of that trade union, employer’s organisation or federation be paid to the public trustee for disposal in accordance with the rules of that trade union, employer’s organisation or federation.
+42.	Treasurer to render accounts
+(1) In this section, "official" means the treasurer of a trade union, employers’ organisation or federation and every other official responsible for the accounts of a trade union, employers’ organisation or federation for collecting, disbursing, keeping in custody or controlling its funds or moneys.
+(2) Every official shall render an accurate account of all moneys received or paid by the official— (a)	to the trade union, employers’ organisation or federation and its members—
+(i) upon resigning or vacating office;
+(ii) at least once in every year at such time as may be specified by the rules of the trade union, employers’ organisation or federation; and
+(iii) at any other time required by a resolution of the members of the trade union, employers’ organisation or federation or by its rules; (b)	to the Registrar, when requested by the Registrar.
+(3) An account rendered under this section shall specify—
+(a) all amounts received or paid by the official since assuming office or, if the official has previously rendered an account, since the date of the last account;
+(b) the balance remaining in the possession of the official at the time of rendering the account; and
+(c) all bonds, securities or other property of the trade union, employers’ organisation or federation entrusted to the custody of, or under the control of the official.
+(4) An account rendered under this section shall be in the Form R set out in the Third Schedule.
+(5) The account rendered under this section shall be verified by statutory declaration, and shall be audited by the holder of a practising certificate issued pursuant to section 21 of the Accountants Act (Cap. 531).
+(6) After the account has been audited, the official shall, if resigning, vacating office or if required by the trustees to do so, forthwith hand over to the trustees of the trade union, employer’s organisation or federation any balance in the official’s possession and all bonds securities, effects, books, papers and property of the trade union, employer’s organisation or federation in the official’s possession or custody or otherwise under the official’s control.
+(7) Any official of a trade union, employer’s organisation or federation or any person who—
+(a) neglects or fails to comply with any of the provisions of this section; or
+(b) willfully makes, orders, causes or procures to be made any false entry in or omission from an account rendered in terms of this section, commits an offence.
+[Act No. 15 of 2008, s. 50.]
+43.	Annual returns
+(1) The authorised representative of a registered trade union, employers’ organisation, or federation shall furnish annually by a prescribed date to the Registrar a general statement of all receipts and expenditure during the year ending 31st December of the preceding year including—
+(a) all sums of money received by way of donations or grants from any local or overseas sources;
+(b) a list of assistance received from any sources; and
+(c) a list of the assets and liabilities of the trade union as at 31st December.
+(2) The statement specified under subsection (1) shall be accompanied by a copy of the auditor’s report and shall be prepared in such form and contain such particulars as may be prescribed.
+(3) The authorised representative referred to in subsection (1) shall simultaneously furnish to the
+Registrar—
+(a) an inventory of the trade union or organisation’s assets;
+(b) a copy of the rules in force, including all alterations and amendments to the rules, and of all new rules; and
+(c) a list of all changes of officials during the preceding year.
+(4) Every member of a trade union, employers’ organisation or federation is entitled to receive, free of charge on request, a copy of the general statement referred to in subsection (1).
+(5) An authorised representative of any trade union or employers’ organisation who—
+(a) fails to comply with any of the requirements of this section;
+(b) willfully makes or orders, causes or procures to be made a false entry in or omission from a general statement, copy or list delivered to the Registrar in terms of this section,
+commits an offence.
+44.	Inspection of accounts and records
+The accounts of a trade union, employers’ organisation or federation and a list of its members shall be open to inspection by—
+(a) an official or member of a trade union, employers’ organisation or federation at such times as may be specified in its constitution; and
+(b) by the Registrar, or any person authorized in writing by the Registrar, at any reasonable time.
+45.	Obstructing inspection by Registrar
+A person who obstructs or impedes the Registrar, or any person authorized by the Registrar, from inspecting the accounts of a trade union, employers’ organisation or federation or the list of its members commits an offence.
+46.	Power to require detailed accounts
+(1) The Registrar may, at any time, call upon the treasurer, the executive or management board by whatever name called, or any other official of a trade union or employers’ organisation to render detailed accounts of its funds or the funds of any branch for any period, in the manner and containing such information as the Registrar may require.
+(2) A person who fails to comply with a request made by the Registrar under subsection (1) commits an offence.
+47.	Misuse of money or property of a trade union
+(1) The Employment and Labour Relations Court may—
+(a) order any person who has in his possession or control any property of a trade union, employers’ organisation or federation in violation of its rules or who has unlawfully expended or withheld its moneys, to deliver that property or pay that money to its trustees; and
+(b) suspend any official who contravenes paragraph (a).
+(2) A complaint under this section shall be brought by—
+(a) the Registrar; or
+(b) a member of a trade union, employers’ organisation or federation at the time of bringing the complaint of the trade union or employers’ organisation concerned.
+Part VI – TRADE UNION DUES, AGENCY FEES AND EMPLOYERS’ ORGANISATION FEES
+48.	Deduction of trade union dues
+(1) In this Part "trade union dues" means a regular subscription required to be paid to a trade union by a member of the trade union as a condition of membership.
+(2) A trade union may, in the prescribed form, request the Cabinet Secretary to issue an order directing an employer of more than five employees belonging to the union to—
+(a)	deduct trade union dues from the wages of its members; and (b)	pay monies so deducted—
+(i) into a specified account of the trade union; or
+(ii) in specified proportions into specified accounts of a trade union and a federation of trade unions.
+(3) An employer in respect of whom the Cabinet Secretary has issued an order under subsection (2) shall commence deducting the trade union dues from an employee’s wages within thirty days of the trade union serving a notice in Form S set out in the Third Schedule signed by the employees in respect of whom the employer is required to make a deduction.
+(4) The Cabinet Secretary may vary an order issued under this section on application by the trade union.
+(5) An order issued under this section, including an order to vary, revoke or suspend an order, takes effect from the month following the month in which the notice is served on the employer.
+(6) An employer may not make any deduction from an employee who has notified the employer in writing that the employee has resigned from the union.
+(7) A notice of resignation referred to in subsection (6) takes effect from the month following the month in which it is given.
+(8) An employer shall forward a copy of any notice of resignation he receives to the trade union.
+49.	Deduction of agency fees from unionisable employees covered by collective agreements
+(1) A trade union that has concluded a collective agreement registered by the Employment and Labour Relations Court with an employer, group of employers or an employers’ organisation, setting terms and conditions of service for all unionisable employees covered by the agreement may request the Cabinet Secretary to issue an order requiring any employer bound by the collective agreement to deduct an agency fee from the wages of each unionisable employee covered by the collective agreement who is not a member of the trade union.
+(2) A request in accordance with sub-section (1) shall—
+(a) be signed by the authorized representatives of the trade union and employer, group of employers or employers’ organisation;
+(b) supply a list of all employees prepared by the employer in respect of whom a deduction shall be made;
+(c) specify the amount of the agency fee, which may not exceed the applicable trade union dues; and
+(d) specify the trade union account into which the dues shall be paid.
+(3) An employer in respect of whom the Cabinet Secretary has issued an order as specified in subsection (1) shall commence deducting agency fees from the employees named in the Cabinet Secretary’s notice within thirty days of receiving the Cabinet Secretary’s notice.
+(4) The Cabinet Secretary may vary an order issued under this section on application by the trade union and the employer, group of employers or employers’ organisation concerned.
+(5) A member of a trade union covered by a collective agreement contemplated by subsection (1) who resigns from the union, is immediately liable to have an agency fee deducted from his wages in accordance with this section.
+(6) If a collective agreement is implemented retrospectively after registration by the Industrial Court, the agency fee shall be deducted and paid to the trade union for the period of retrospective implementation in accordance with this section.
+50.	General provisions applicable to deductions
+(1) Any amount deducted in accordance with the provisions of this Part shall be paid into the designated trade union, or employers’ organisation account within ten days of the deduction being made.
+(2) The Cabinet Secretary may revoke or suspend a notice issued in accordance with this Part if the
+Cabinet Secretary has reason to believe that—
+(a) the order was obtained by misrepresentation or fraud;
+(b) the money is not being paid into the designated account; or
+(c) the money is being used for a purpose other than the lawful trade union or federation activities.
+(3) No amount deducted from the wages of an employee in accordance of this Part may be recovered from the employer by that employee.
+(4) Any amount deducted from the wages of a member of a trade union by the member’s employer in accordance with this section discharges the liability of the member to pay trade union dues.
+(5) An employer may set off against any sum payable to a trade union in accordance with this section, the amount of any money over paid by the employer into the account designated by the Cabinet Secretary.
+(6) No employer shall make a deduction from the wages of an employee for the purposes of making a payment to any trade union, except in accordance with the provisions of this Part.
+(7) A trade union or a trade union federation shall acknowledge receipt of any monies paid to it within fourteen days of receiving the money.
+(8) No employer shall—
+(a) fail to comply with an order or a notice issued under this Part;
+(b) deduct any money and not pay it to a trade union; or
+(c) pay money into an account other than the account designated in the notice issued by the Cabinet Secretary.
+(9) No person shall—
+(a) request an employer to pay money deducted in accordance with this section into an account other than the account designated by the Cabinet Secretary in the notice; or
+(b) use any money deducted in accordance with this section for any purpose other than the lawful activities of a trade union or a trade union federation.
+(10) An employer or any person who contravenes the provisions of this section commits an offence.
+[Act No. 18 of 2018, Sch.]
+51.	Collection of levies other than trade union dues
+The Cabinet Secretary may make regulations providing for the collection from employees and the payment to trade unions and trade union federations by employers of sums in respect of levies, subscriptions or payments, other than trade union dues, for particular purposes or objects approved by the Cabinet Secretary.
+52.	Direct payment of trade union dues
+Nothing in this Part prevents a member of a trade union from paying any dues, levies, subscriptions or other payments authorised by the constitution of the trade union directly to the trade union.
+53.	Payments by members to employers’ organisations
+An employers’ organisation may provide in its constitution for its members to—
+(a) pay subscriptions or levies as a condition of their membership of the employers’ organisation; and
+(b) to charge its members a fee for services rendered to, and expenses incurred on behalf of the member.
+Part VII – RECOGNITION OF TRADE UNIONS AND COLLECTIVE AGREEMENTS
+54.	Recognition of trade union by employer
+(1) An employer, including an employer in the public sector, shall recognise a trade union for purposes of collective bargaining if that trade union represents the simple majority of unionisable employees.
+(2) A group of employers, or an employers’ organisation, including an organisation of employers in the public sector, shall recognise a trade union for the purposes of collective bargaining if the trade union represents a simple majority of unionisable employees employed by the group of employers or the employers who are members of the employers’ organisation within a sector.
+(3) An employer, a group of employers or an employer’s organisation referred to in subsection (2) and a trade union shall conclude a written recognition agreement recording the terms upon which the employer or employers’ organisation recognises a trade union.
+(4) The Cabinet Secretary may, after consultation with the Board, publish a model recognition agreement.
+(5) An employer, group of employers or employers’ association may apply to the Board to terminate or revoke a recognition agreement.
+(6) If there is a dispute as to the right of a trade union to be recognised for the purposes of collective bargaining in accordance with this section or the cancellation of recognition agreement, the trade union may refer the dispute for conciliation in accordance with the provisions of Part VIII.
+(7) If the dispute referred to in subsection (6) is not settled during conciliation, the trade union may refer the matter to the Employment and Labour Relations Court under a certificate of urgency.
+(8) When determining a dispute under this section, the Employment and Labour Relations Court shall take into account the sector in which the employer operates and the model recognition agreement published by the Cabinet Secretary.
+55.	Election of trade union representatives
+(1) Without limiting the matters that may be dealt with in a recognition agreement, a recognition agreement shall provide for trade union members in a workplace to elect from among themselves trade union representatives in accordance with the constitution of the trade union.
+(2) A trade union representative elected under subsection (1) is entitled to—
+(a) represent members in grievance and disciplinary hearings at the workplace; and
+(b) perform any other functions specified in the recognition agreement or constitution of the trade union.
+56.	Trade union access to employer’s premises
+(1) Without limiting the matters that may be dealt with in a recognition agreement, a recognition agreement shall provide for an employer to grant a trade union reasonable access to the employers premises for officials or authorised representatives of the trade union to pursue the lawful activities of the trade union, including but not limited to—
+(a) recruiting members for the trade union;
+(b) holding meetings with members of the trade union and other employees outside of working hours;
+(c) representing members of the trade unions in dealings with the employer; and
+(d) conducting ballots in accordance with the constitution of the trade union.
+(2) An employer may—
+(a) impose reasonable conditions as to the time and place of any rights granted in this section to avoid undue disruption of operations or in the interest of safety; and
+(b) require officials or trade union representatives requesting access to provide proof of their identity and credentials.
+(3) Any dispute concerning the granting of access, or the conditions upon which access is to be granted, may be referred to the Employment and Labour Relations Court under a certificate of urgency.
+57.	Collective agreements
+(1) An employer, group of employers or an employers’ organisation that has recognised a trade union in accordance with the provisions of this Part shall conclude a collective agreement with the recognised trade union setting out terms and conditions of service for all unionisable employees covered by the recognition agreement.
+(2) For the purpose of conducting negotiations under subsection (1), an employer shall disclose to a trade union all relevant information that will allow the trade union to effectively negotiate on behalf of employees.
+(3) All the information disclosed by an employer as specified in subsection (2) is confidential and shall not be disclosed by any person to a person who is not engaged in the negotiations.
+(4) An employer is not required to disclose information that—
+(a) is legally privileged;
+(b) the employer cannot disclose without contravening a prohibition imposed on the employer by any law or an order of any court;
+(c) if disclosed, may cause substantial harm to the employer or employee; or
+(d) is private personal information relating to an employee, unless an employee consents to the disclosure of that information.
+(5) If there is a dispute about what information is required to be disclosed in accordance with the provisions of this section, any party to the dispute may, in writing, refer the dispute to the Cabinet Secretary for conciliation.
+(6) If a dispute remains unresolved, after it has been referred to the Cabinet Secretary under subsection (5), any party to the dispute may refer the dispute to the Employment and Labour Relations Court under a certificate of urgency.
+(7) In any dispute about an alleged breach of confidentiality, the Employment and Labour Relations Court may order that the right to disclosure of information be withdrawn for a period specified by the court.
+(8) No person shall disclose any confidential information disclosed under this section to a person who is not a party to those negotiations.
+58.	Alternative dispute resolution
+(1) An employer, group of employers or employers’ organisation and a trade union may conclude a collective agreement providing for—
+(a) the conciliation of any category of trade disputes identified in the collective agreement by an independent and impartial conciliator appointed by agreement between the parties; and
+(b) the arbitration of any category of trade disputes identified in the collective agreement by an independent and impartial arbitrator appointed by the agreement between the parties.
+(2) A party that has referred a dispute to conciliation in terms of an agreement contemplated in subsection (1) is not required to refer it to the Cabinet Secretary for conciliation.
+(3) An award in an arbitration in terms of a collective agreement contemplated in subsection (1) is final and binding and—
+(a) is subject to appeal on points of law to any court;
+(b) may be set aside by the Employment and Labour Relations Court on any ground recognised in law; or
+(c) may be enforced by the Industrial Court.
+(4) An application to review an arbitration award shall be made to the Employment and Labour Relations Court within thirty days of the award.
+59.	Effect of collective agreements
+(1) A collective agreement binds for the period of the agreement—
+(a) the parties to the agreement;
+(b) all unionisable employees employed by the employer, group of employers or members of the employers’ organisation party to the agreement; or
+(c) the employers who are or become members of an employers’ organisation party to the agreement, to the extent that the agreement relates to their employees.
+(2) A collective agreement shall continue to be binding on an employer or employees who were parties to the agreement at the time of its commencement and includes members who have resigned from that trade union or employers’ association.
+(3) The terms of the collective agreement shall be incorporated into the contract of employment of every employee covered by the collective agreement.
+(4) A collective agreement shall be in writing and shall be signed by—
+(a) the chief executive officer of any employer, the chief executive or national secretary of an employers’ organisation that is a party to the agreement or a representative designated by that person; and
+(b) the general secretary of any trade union that is a party to the agreement or a representative designated by the general secretary.
+(5) A collective agreement becomes enforceable and shall be implemented upon registration by the Employment and Labour Relations Court and shall be effective from the date agreed upon by the parties.
+60.	Registration of collective agreement
+(1) Every collective agreement shall be submitted to the Employment and Labour Relations Court for registration within fourteen days of its conclusion.
+(2) The employer or employer’s organisation which is party to an agreement to be registered under this section shall submit the agreement to the Employment and Labour Relations Court for registration.
+(3) If an employer or employers’ organisation fails to submit the collective agreement to the
+Employment and Labour Relations Court as specified in subsection (1), the trade union may submit it.
+(4) The Employment and Labour Relations Court may request the parties to a collective agreement to supply further information or make oral or written representations to it for the purposes of this section.
+(5) The Employment and Labour Relations Court may register an agreement—
+(a) in the form it was submitted by the parties; or
+(b) with any amendment or modification agreed to by the parties.
+(6) The Employment and Labour Relations Court shall not register a collective agreement that— (a)	conflicts with this Act or any other law; or
+(b)	does not comply with any directives or guidelines concerning wages, salary levels and other conditions of employment issued by the Cabinet Secretary.
+(7) The Industrial Court—
+(a) may register a collective agreement within fourteen days of receiving it;
+(b) may refuse to register a collective agreement unless all parties to the agreement have had an opportunity to make oral representations to the Industrial Court; and (c)	shall give reasons for refusing to register any collective agreement.
+61.	Terms and conditions of service in the public sector where there is no collective bargaining
+(1) The Cabinet Secretary may, after consultations with the Board, make regulations establishing machinery for determining terms and conditions of employment for any category of employees in the public sector.
+(2) The terms and conditions of employment determined under subsection (1) shall have the same effect as a collective agreement registered under this Part and may be enforced as if it were a collective agreement.
+(3) The Cabinet Secretary may—
+(a) determine different terms and conditions for different categories of employees; or
+(b) not exercise the powers under this section in respect of a category of employees who are represented by a trade union that is entitled to be recognised in terms of this Part.
+Part VIII – DISPUTE RESOLUTION
+62.	Reporting of trade disputes to the Cabinet Secretary
+(1) A trade dispute may be reported to the Cabinet Secretary in the prescribed form and manner—
+(a) by or on behalf of a trade union, employer or employers’ organisation that is a party to the dispute; and
+(b) by the authorised representative of an employer, employers’ organisation or trade union on whose behalf the trade dispute is reported.
+(2) A person reporting a trade dispute shall—
+(a) serve a copy by hand or registered post on each party to the dispute and any other person having a direct interest in the dispute; and
+(b) satisfy the Cabinet Secretary that a copy has been served on each party to the dispute by hand or by registered post.
+(3) A trade dispute concerning the dismissal or termination of an employee shall be reported to the
+Cabinet Secretary within—
+(a) ninety days of the dismissal; or
+(b) any longer period that the Cabinet Secretary, on good cause, permits.
+(4) If the issue in dispute concerns the redundancy of one or more employees, a trade union may report a trade dispute to the Cabinet Secretary at any stage after the employer has given notice of its intention to terminate the employment of any employee on grounds of redundancy.
+(5) The reporting of a trade dispute by a trade union under subsection (4) does not prevent an employer from declaring employees redundant on the expiry of notice of intention to declare the employees redundant.
+63.	Respondent may file replying statement
+(1) Every party to a trade dispute referred to in section 62 shall file a replying statement in the prescribed form and manner with the Cabinet Secretary within fourteen days of receiving a copy of the report of the dispute.
+(2) The failure by a party to file a replying statement does not affect the validity of a referral.
+64.	Interested party may file statement of interest
+Any party which has an interest in any dispute may file a statement with the Cabinet Secretary within fourteen days of receiving a copy of the referral.
+65.	Cabinet Secretary to appoint conciliators
+(1) Within twenty-one days of a trade dispute being reported to the Cabinet Secretary as specified under section 62, the Cabinet Secretary shall appoint a conciliator to attempt to resolve the trade dispute unless—
+(a) the conciliation procedures in an applicable collective agreement binding on the parties to the dispute have not been exhausted; or
+(b) a law or collective agreement binding upon the parties prohibits negotiation on the issue in dispute.
+(2) The Cabinet Secretary may require any party to a trade dispute to supply further information for the purpose of deciding whether to appoint a conciliator.
+(3) If the Cabinet Secretary refuses to appoint a conciliator as specified in subsection (1), the Cabinet Secretary shall supply the parties to the dispute with written reasons for that decision.
+(4) Where a party is aggrieved by a Cabinet Secretary’s decision under this section, that party may refer the matter to the Employment and Labour Relations Court under a certificate of urgency.
+(5) The Cabinet Secretary may consult the Board on any trade dispute, which has been reported for conciliation.
+66.	Persons appointed to conciliate
+(1) A person appointed to conciliate a dispute under this Part shall be— (a)	a public officer;
+(b) any other person drawn from a panel of conciliators appointed by the Cabinet Secretary after consulting the Board; or
+(c) a conciliator from the Conciliation and Mediation Commission.
+(2) If the Cabinet Secretary appoints a conciliation committee to conciliate a trade dispute, the Cabinet
+Secretary shall appoint—
+(a) a chairperson in accordance with subsection (1);
+(b) an even number of persons drawn equally from lists submitted to the Cabinet Secretary by the employer and trade union representatives respectively on the Board; and (c)	the secretary of the conciliation committee.
+67.	Conciliator’s powers to resolve dispute
+(1) The conciliator or conciliation committee appointed under section 66 shall attempt to resolve the trade dispute referred to in section 65(1) within—
+(a) thirty days of the appointment; or
+(b) any extended period agreed to by parties to the trade dispute.
+(2) For the purposes of resolving any trade dispute, the conciliator or conciliation committee may— (a)	mediate between the parties;
+(b) conduct a fact-finding exercise; and
+(c) make recommendations or proposals to the parties for settling the dispute.
+(3) For the purposes of resolving any trade dispute, the conciliator or conciliation committee may— (a)	summon any person to attend a conciliation;
+(b)	summon any person who is in possession or control of any information, book, document or object relevant to resolving the trade dispute to appear at the conciliation; or (c)	question any person present at a conciliation.
+(4) The Cabinet Secretary shall pay the prescribed witness fee to any person who appears before a conciliator or conciliation committee in response to a summons issued under sub-section (3).
+(5) No person shall without good cause fail to—
+(a) comply with a summons issued under subsection (3);
+(b) produce any book, document or item specified in a summons issued under subsection (3); or
+(c) answer any relevant question asked by a conciliator or conciliation commission under subsection (3).
+68.	Dispute resolved after conciliation
+(1) If a trade dispute is settled in conciliation the terms of the agreement shall be— (a)	recorded in writing; and
+	(b)	signed by the parties and the conciliator.
+(2) A signed copy of the agreement shall be lodged with the Cabinet Secretary as soon as it is practicable.
+69.	Dispute unresolved after conciliation
+A trade dispute is deemed to be unresolved after conciliation if the—
+(a) conciliator issues a certificate that the dispute has not been resolved by conciliation; or
+(b) thirty day period from the appointment of the conciliator, or any longer period agreed to by the parties, expires.
+70.	Cabinet Secretary may appoint conciliator in public interest
+(1) If the Cabinet Secretary is satisfied that it is in the public interest to prevent a dispute from arising or to resolve a dispute, the Cabinet Secretary may appoint a conciliator or conciliation committee to attempt to present a dispute or resolve the dispute.
+(2) The Cabinet Secretary may appoint a conciliator or conciliation committee under subsection (1)— (a)	in respect of a dispute that—
+      (i) has not been referred to conciliation; or
+      (ii) is unresolved after conciliation; (b)	irrespective of whether—
+ (i)	a trade union is a party to the dispute or not; or (ii)	the dispute is in the public or private sector.
+71.	Committee of inquiry
+The Cabinet Secretary may appoint a committee of inquiry to investigate any trade dispute and report to the Cabinet Secretary.
+72.	Exercise of powers of the Cabinet Secretary
+The Cabinet Secretary may delegate his powers under this Part to the Commissioner for Labour or the Chief Industrial Relations Officer.
+Part IX – ADJUDICATION OF DISPUTES
+73.	Referral of dispute to Industrial Court
+(1) If a trade dispute is not resolved after conciliation, a party to the dispute may refer it to the Employment and Labour Relations Court in accordance with the rules of the Industrial Court.
+(2) Notwithstanding the provisions of subsection (1), if a trade dispute—
+(a) is one in respect of which a party may call a protected strike or lock-out, the dispute may only be referred to the Employment and Labour Relations Court by an aggrieved party that has made a demand in respect of an employment matter or the recognition of a trade union which has not been acceded to by the other party to the dispute; or
+(b) is in an essential service, the Cabinet Secretary may, in addition, refer the dispute to the Employment and Labour Relations Court.
+(3) A trade dispute may only be referred to the Employment and Labour Relations Court by the authorised representative of an employer, group of employers, employers’ organisation or trade union.
+74.	Urgent referrals to Employment and Labour Relations Court
+A trade union may refer a dispute to the Employment and Labour Relations Court as a matter of urgency if the dispute concerns—
+(a) the recognition of a trade union in accordance with section 62; or
+(b) a redundancy where—
+      (i) the trade union has already referred the dispute for conciliation under section 62(4); or
+      (ii) the employer has retrenched employees without giving notice; or (c)	employers and employees engaged in an essential service.
+75.	Arbitration Act does not to apply
+The Arbitration Act (Cap. 49) shall not apply to any proceedings before the Employment and Labour Relations Court.
+Part X – STRIKES AND LOCK-OUTS
+76.	Protected strikes and lock-outs
+A person may participate in a strike or lock-out if—
+(a) the trade dispute that forms the subject of the strike or lock-out concerns terms and conditions of employment or the recognition of a trade union;
+(b) the trade dispute is unresolved after conciliation—
+(i) under this Act; or
+(ii) as specified in a registered collective agreement that provides for the private conciliation of disputes; and
+(c) seven days written notice of the strike or lock-out has been given to the other parties and to the
+Cabinet Secretary by the authorised representative of—
+(i) the trade union, in the case of a strike;
+(ii) the employer, group of employers of employers’ organisation, in the case of a lock-out.
+77.	Powers of Employment and Labour Relations Court
+(1) A party to a dispute that has received notice of a strike or lock-out may apply to the Employment and Labour Relations Court to prohibit the strike or lock-out as a matter of urgency if—
+(a) the strike or lock-out is prohibited under this Part; or
+(b) the party that issued the notice has failed to participate in conciliation in good faith with a view to resolving the dispute.
+(2) A party that failed to attend any conciliation meeting may not seek relief under subsection (1)(b).
+(3) The Employment and Labour Relations Court may, in granting relief in respect of any application made under subsection (1)(b), direct the parties to engage in further conciliation in good faith with a view to resolving the dispute.
+78.	Prohibited strikes or lock-outs
+(1) No person shall take part in a strike or lock-out or in any conduct in contemplation of a strike or lock-out if—
+(a) any law, court award or a collective agreement or recognition agreement binding on that person prohibits a strike or lock-out in respect of the issue in dispute;
+(b) the subject matter of the strike or lock-out is regulated by a collective agreement or recognition agreement binding on the parties to the dispute;
+(c) the parties have agreed to refer the trade dispute to the Employment and Labour Relations Court or to arbitration;
+(d) in the case of a dispute concerning the recognition of a trade union, the trade union has referred the matter to the Employment and Labour Relations Court; (e)	the trade dispute was not referred for conciliation in terms of— (i)	this Act; or
+	(ii)	a collective agreement providing for conciliation;
+(f) the employer and employees are engaged in an essential service;
+(g) the strike or lock-out is not in furtherance of a trade dispute; or
+(h) the strike or lock-out constitutes a sympathetic strike or lock-out.
+(2) For the purposes of this section—
+(a) an employee engages in a sympathetic strike if the employee participates in a strike in support of a trade dispute in respect of which the employee’s employer—
+(i) is not a party to the dispute; or
+(ii) is not represented by an employer’s organisation that is a party to that dispute; or
+(b) an employer engages in a sympathetic lock-out if the employer locks- out an employee in support of a trade dispute—
+(i) to which the employer is not a party; or
+(ii) in respect of which the employer is not represented by an employer’s organisation that is a party to dispute.
+79.	Strike or lock-out in compliance with this Act
+(1) In this Part, a "protected strike" means a strike that complies with the provisions of this Part and "protected lock-out" means a lock-out that complies with the provisions of this Part.
+(2) A person does not commit a breach of contract or a tort by taking part in—
+(a) a protected strike or a protected lock-out; or
+(b) any lawful conduct in contemplation or furtherance of a protected strike or a protected lockout.
+(3) An employer may not dismiss or take disciplinary action against an employee for participating in a protected strike or for any conduct in contemplation or furtherance of a protected strike.
+(4) Civil proceedings may not be instituted against any person for— (a)	participating in a protected strike or a protected lock-out; or (b)	any conduct in furtherance of a protected strike or protected lock-out.
+(5) Subsections (2), (3) and (4) do not apply to any action that constitutes an offence.
+(6) An employer is not obliged to remunerate an employee for services that the employee does not render during a protected strike or lock-out.
+80.	Strike or lock-out not in compliance with this Act
+(1) An employee who takes part in, calls, instigates or incites others to take part in a strike that is not in compliance with this Act is deemed to have breached the employee’s contract and— (a)	is liable to disciplinary action; and
+(b)	is not entitled to any payment or any other benefit under the Employment Act (Cap. 226) during the period the employee participated in the strike.
+(2) A person who refuses to take part or to continue to take part in any strike or lock-out that is not in compliance with this Act may not be—
+(a) expelled from any trade union, employers organisation or other body or deprived of any right or benefit as a result of that refusal; or
+(b) placed under any disability or disadvantaged, compared to other members or the trade union, employers’ organisation or other body as a result of that refusal.
+(3) Any issue concerning whether any strike or lock-out or threatened strike or lock-out complies with the provisions of this Act may be referred to the Employment and Labour Relations Court.
+81.	Essential services
+(1) In this Part "essential services" means a service the interruption of which would probably endanger the life of a person or health of the population or any part of the population.
+(2) The Cabinet Secretary, after consultation with the Board—
+(a) shall from time to time, amend the list of essential services contained in the Fourth Schedule; and
+(b) may declare any other service an "essential service" for the purpose of this section if a strike or lock-out is so prolonged as to endanger the life, person or health of the population or any part of the population.
+(3) There shall be no strike or lock-out in an essential service.
+(4) Any trade dispute in a service that is listed as or is declared to be an essential service may be adjudicated upon by the Employment and Labour Relations Court.
+(5) A collective agreement may provide that any service may be deemed to be an essential service.
+Part XI – MISCELLANEOUS PROVISIONS
+82.	General penalty
+(1) The Employment and Labour Relations Court has jurisdiction in respect of any prosecution for an offence under this Act.
+(2) A trade union, employers’ organisation or federation which is convicted for an offence under this Act shall be liable to pay a fine not exceeding forty thousand shillings.
+(3) A person who commits an offence under this Act shall on conviction be liable to a fine not exceeding ten thousand shillings.
+83.	Regulations
+The Cabinet Secretary may, after consultations with the Board, make regulations on any matter for the better carrying out of the provisions of this Act.
+84.	[Spent]
+FIRST SCHEDULE [ss. 14(1)(b), 15(1)(b)]
+MATTERS FOR WHICH PROVISION MUST BE MADE IN THE
+CONSTITUTION OF TRADE UNION OR EMPLOYERS’ ORGANISATION
+1. The name of the trade union or employers’ organisation and the place of meeting for the business of the trade union or employers’ organisation.
+2. The whole of the objects for which the trade union is to be established, the purposes for which the funds thereof shall be applicable, the conditions under which any member thereof may become entitled to any benefit assured thereby, and the fines and forfeitures to be imposed on any member thereof.
+3. The manner of making, altering, amending and rescinding the constitution.
+4. The appointment or election and removal of an executive, and of trustees, secretaries, treasurers and other officers of the trade union or employers’ organisation.
+5. The custody and investment of the funds of the trade union or employers’ organisation, the designation of the officer or officers responsible therefor, and the annual or periodical audit of its accounts.
+6. The inspection of the books and names of members of the trade union or employers’ organisation by any person having an interest in the funds of the trade union.
+7. The manner of dissolution of the trade union or employers’ organisation and the disposal of the funds thereof available at the time of the dissolution.
+8. The taking of all decisions in respect of the election of officials, the amendment of the constitution, strikes, lock-outs, dissolution and any other matters affecting members of the trade union or employers’ organisation generally, by secret ballot.
+9. The right of any member to reasonable opportunity to vote.
+10. The amount of subscription and fees payable by members, and the discrimination of a member from voting on any matter concerning the union and from receiving benefits if the members’ subscription is in arrear.
+11. The conditions under which a person may become an honorary member.
+12. That the secretary and treasurer of the trade union or employers’ organisation shall be persons sufficiently literate in the English or Swahili language to be able adequately to perform the duties of such office.
+SECOND SCHEDULE
+FORMS
+FORM A	(s. 18(1))
+THE LABOUR RELATIONS ACT
+APPLICATION FOR REGISTRATION OF TRADE UNION/EMPLOYERS' ORGANISATION/FEDERATION
+To: The Registrar of Trade Unions, Nairobi.
+1. We, the several persons whose names are subscribed below being members of a trade union/employers' organisation /federation known as ...................., make application for the registration of the trade union/ employers' organisation/federation.
+2. The trade union/employers' organisation/federation was established on the .............. 20 ...........
+3. The name under which it is proposed that the trade union/employers' organisation/federation shall be registered is ....................
+4. (1)	The physical address of the registered office of the trade union is at ...............................
+(2)	The postal address of the trade union/employers' organisation/federation, to which all communications and notices may be addressed, is .................
+5. Accompanying this application are sent—
+(a) a copy, marked A. of the constitution of the trade union/employers' organisation/federation;
+(b) a list, marked B. of the names, identity certificate 'numbers, address and occupations of the members making this application; and
+(c) a Iist, marked C, of the titles, names, identity certificate numbers, addresses and occupations of the Officials of the trade union/employers' organisation /federation.
+6. We have been duly authorized' by the trade union/employers' organisation /federation to make this application on its behalf, such authorization consisting of* .................................
+Dated the ................................, 20 ............
+[Signed]
+1. ................................................
+2. ................................................
+3. ................................................
+4. ................................................
+5. ................................................
+6. ................................................
+NOTE.—
+(a) This application, to which must be affixed revenue stamps to the value of Sh.20, must be signed by at least seven members of the trade union/employers' organisation/federation.
+(b) The enclosures referred to in paragraph 5 should be typewritten or printed.
+* In paragraph 6 it must be stated whether the authority to make this application was given by a "resolution of a general meeting of the trade union/employers' organisation /federation or, if not, in what other way it was given.
+__________________
+FORM B	(s. 19(1)(a))
+THE LABOUR RELATIONS ACT
+CERTIFICATE OF REGISTRATION
+It is notified that the ........................... has been registered under the Labour Relations Act.
+Dated the ...................., 20 ............
+.............................................
+                                   Registrar of Trade Unions __________________
+FORM C	(s. 19)
+THE LABOUR RELATIONS ACT
+REGISTER
+Registry No. ..............
+File Ref. ...............
+Name of Trade Union/Employers' Organisation/Federation
+..........................................
+Physical Location of Registered Office ......................... (Building, Street/Road)
+Postal Address of Registered Office ............................. (Telephone/Fax/e-mail)
+Date of formationDate of registrationDate of cancellation of registrationDate of suspension of registrationPeriod of suspensionDate of registration of dissolution...Officials, Executive Committee and Trustee
+TitleFull NameDate of AppointmentDate of RemovalVoting Membership as at 31st December of Each Year
+Year2000200120022003200420052006200720082009MalesFemalesTotal__________________
+FORM D	(s. 20)
+THE LABOUR RELATIONS ACT
+NOTIFICATION OF REFUSAL OF REGISTRATION
+It is notified that the registration of .......................... as a trade union/employers' organisation /federation under the Labour Relations Act is refused. The grounds of the refusal are as follows-
+....................................................
+Dated the ...................., 20 ............
+.............................................
+Registrar of Trade Unions
+NOTE: Upon receipt of this notice, reference should be made to section 20 of the Labour Relations Act. Subsection (2) of that section sets out the provisions which have effect upon the refusal of the Registrar to register a trade union/employers' organisation/federation.
+__________________
+FORM E	(s. 24(1)(b))
+THE LABOUR RELATIONS ACT
+NOTICE OF REGISTERED OFFICE AND POSTAL ADDRESS/CHANGE OF SITUATION OF REGISTERED OFFICE OR OF POSTAL ADDRESS
+To: The Registrar of Trade Unions, Nairobi.
+The* .............................................. gives you notice that—
+tthe physical address of the registered office of the trade union/employers' organisation /federation has been changed from ................... to ................... tthe postal address/telephone/e-mail of the trade union/employers' organisation/federation has been changed from changed from .................. to ..................
+Dated the ....................., 20 .........
+........................................
+[Signed]
+General Secretary/Secretary-General
+* Enter name of trade union/employers' organisation/federation. tDelete whichever is inapplicable.
+NOTE:
+(a) It is an offence, under section 24 of the Labour Relations Act for any trade union/employers' organisation/ federation to—
+ (i)	operate at any place to which its registered office may have been removed without having given notice of the change in the situation thereof to the Registrar; or (ii)	fail to give notice of any change of its postal address.
+(b) The notice should be signed by the general secretary of the trade union/employers’ organisation/ federation.
+__________________
+FORM F	(s. 25(1))
+THE LABOUR RELATIONS ACT
+APPLICATION FOR REGISTRATION OF A BRANCH OF A
+TRADE UNION/EMPLOYERS' ORGANISATION/FEDERATION
+To: The Registrar of Trade Unions, Nairobi.
+1. I, the General Secretary of the .......................... make application for the registration of the ...................... Branch.
+2. The Branch was established on the ................., 20 ..........
+3. (1)	The physical address of the registered office of the Branch is at .......................
+(2)	The postal address of the Branch to which all direct communications and notices may be addressed is ...............
+4. Accompanying this application is sent a list marked "'A" of the titles, names in full, ages, addresses and occupations of the Officers/Officials of the Branch.
+5. I have been duly authorized by my executive committee to make this application.
+Dated the ..................., 20 ...........
+Signed ..............................
+General Secretary of ..................... Trade Union/Employers' Organisation/Federation
+__________________
+FORM G	(s. 26(4))
+THE LABOUR RELATIONS ACT
+NOTICE OF AMALGAMATION
+TO: The Registrar of Trade Unions, Nairobi.
+1. We, the several persons whose names are subscribed below, being the general secretaries and members of the trade unions/employers' organisation/federation registered under the names of—
+(1) .................................................
+(2) .................................................
+(3) .................................................
+give you notice pursuant to section 26 of the Labour Relations Act that it is proposed to amalgamate together the trade unions/employers' organisation federation as one trade union/employers' organisation/ federation under the name of ...................................
+2. Each trade union/employers' organisation /federation, which is a party to this amalgamation, has taken a secret ballot among its voting members in the manner prescribed by its constitution. Signed copies of the certificates of the results of the ballots are attached hereto.
+Dated the ..................., 20..........
+............................................
+Trade Union/Employers'
+Organisation/Federation............................................ .............................................Trade Union/Employers' Organisation/FederationTrade Union/Employers' Organisation/Federation[Signed] ...................................
+General Secretary...................................
+General Secretary...................................
+General Secretary1. .................................1. .................................1. .................................2. .................................2. .................................2. .................................3. .................................3. .................................3. .................................NOTE:
+(a) The certificates referred to in paragraph 2 must be in the prescribed form - (see the Labour Relations Act, the amalgamation cannot be proceeded with unless, in the case of each trade union, the votes of at least 50 per cent of the members entitled to vote are recorded at the ballot and, or the votes recorded, those in favour of the proposed exceed by 20 per sent or more the votes against the proposal.)
+(b) This notice must be signed by the general secretary and seven members of each trade union/ employers' organisation /federation which is party to the amalgamation.
+(c) The amalgamation will not have effect until the Registrar has registered the trade union/employers' organisation /federation formed thereby in the prescribed manner.
+__________________
+FORM H	(s. 26(6)(a))
+THE LABOUR RELATIONS ACT
+CERTIFICATE OF AMALGAMATION
+It is notified that the ...................... has been registered under the Labour Relations Act on the ........... day of ........... 20 ...........
+Dated the .................., 20 ...........
+.............................................
+                                   Registrar of Trade Unions __________________
+FORM I	(s. 27(2)(a))
+THE LABOUR RELATIONS ACT
+NOTICE OF AMENDMENT OF CONSTITUTION OF RULES
+TO: The Registrar of Trade Unions, Nairobi.
+1. We, the several persons whose names are subscribed below, being the secretary and seven members of the trade union employers' organisation/federation registered under the name of ....................... give you notice of amendment of the constitution of the aforesaid trade union employers organisation/federation.
+2. With this application are sent—
+(a) a copy of the registered constitution of the of the trade union/employers' organisation/federation;
+(b) a copy, of the amended constitution, signed by the person giving this notice; and
+(c) a copy of the minutes of the meeting at which the amendment was made, certified as true by the chairman of that meeting.
+3. We have been duly authorized by the trade union employers' organisation/federation to give this notice on its behalf, such authorization consisting of a resolution passed at a general meeting of the trade union employers' organisation/federation on the ..............., 20 ............
+Dated the ...................., 20 ............
+[Signed] .............................................
+General Secretary/Secretary-General
+1. ....................................	}	Members
+2. ....................................	}
+3. ....................................	}
+4. ....................................	}
+5. ....................................	}
+6. ....................................	}
+__________________
+FORM J	(s. 27(2)(a))
+THE LABOUR RELATIONS ACT
+NOTICE OF CHANGE OF NAME
+TO: The Registrar of Trade Unions, Nairobi.
+1. We, the several persons whose names are subscribed below, being the general secretary and seven members of the trade union/employers' organisation/federation registered under the name of ........................... give you notice pursuant to section 27 of the Labour Relations Act that it is proposed to change the name of the trade union/employers' organisation /federation to ......................
+2. The proposed change of name has the consent of not less than two-thirds of the total number of voting members of the trade union/employers' organisation /federation, such consent having been obtained by secret ballot taken in accordance with the rules of the trade union/employers' organisation/federation on the .................., 20 .................
+Dated the ...................., 20 ............
+[Signed] ................................
+General Secretary/Secretary-General
+1. ....................................	}	Members
+2. ....................................	}
+3. ....................................	}
+4. ....................................	}
+5. ....................................	}
+6. ....................................	}
+NOTE:
+(a) A trade union/employers' organisation/federation may not change its name without the consent of at least two thirds of the total number of its voting members, and such consent must be obtained by secret ballot conducted in accordance with the rules of the trade union/employers' organisation/ federation.
+(b) This notice must be signed by the general secretary and by seven members of the trade union / employers' organisation/federation.
+(c) The change of name will not have effect until registered by the Registrar.
+__________________
+FORM K	(s. 27(6))
+THE LABOUR RELATIONS ACT
+CERTIFICATE OF CHANGE OF NAME
+It is notified that the .................... has been registered under the Labour Relations Act on the ............ day of ............, 20 .............
+Dated the ...................., 20 ............
+.............................................
+                                   Registrar of Trade Unions __________________
+FORM L	(s. 27(6))
+THE LABOUR RELATIONS ACT
+CERTIFICATE OF ALTERATION OF CONSTITUTION
+It is certified that the foregoing alteration(s) of the constitution of the ............................. has [have] been registered pursuant to section 27 of the Labour Relations Act.
+Dated the ...................., 20 ............
+.............................................
+Registrar of Trade Unions
+NOTE:
+(a) Two copies of this notice (with enclosures) must be sent to the Registrar within fourteen days of any alteration of the constitution.
+(b) This notice must be accompanied by the prescribed registration fee.
+(c) Alterations in the constitution of a trade union/employers' organisation /federation have effect from the date of registration thereof by the Registrar unless some later date is specified in the rules
+__________________
+FORM M	(s. 28(3)(a))
+THE LABOUR RELATIONS ACT
+NOTICE OF INTENTION TO SUSPEND OR CANCEL REGISTRATION OF A TRADE UNION/EMPLOYERS' ORGANISATION /FEDERATION
+To: .......................
+I give you notice, pursuant to section 28 of the Labour Relations Act, that on the expiry of three months from the date thereof I propose to suspend/cancel the registration of .................................. as a trade union/ employers' organisation /federation under the Act unless, before the expiration of that period, cause is shown to my satisfaction why the registration should not be suspended/ cancelled.
+The grounds on which I propose to suspend/cancel the registration are—
+...................................................
+Dated the ....................., 20 ............
+.............................................
+                                   Registrar of Trade Unions __________________
+FORM N	(s. 28(4)(a))
+THE LABOUR RELATIONS ACT
+ORDER OF SUSPENSIONI CANCELLATION OF REGISTRATION
+It is notified that the registration of ............................... as a trade union/employers' organisation /federation under the Labour Relations Act be and is hereby suspended/ cancelled and the grounds of the suspension/ cancellation are as follows—
+(a) ..........................................
+(b) .......................................... (c)	..........................................
+Dated the ......................., 20 ..............
+.............................................
+Registrar of Trade Unions
+NOTE. - Upon service of this order, reference should be made to section 23 of the Labour Relations Act, which sets out the provisions which have effect upon the suspension or cancellation of registration of a trade union/ employers' organisation /federation.
+__________________
+FORM O	(s. 29(1))
+THE LABOUR RELATIONS ACT
+NOTICE OF DISSOLUTION
+To: The Registrar of Trade Unions, Nairobi.
+Notice is given that the *......................... was dissolved in pursuance of the rules on the ..................., 20 ............
+Dated the ......................., 20 ..............
+1. ....................................	}	Members
+2. ....................................	}
+3. ....................................	}
+4. ....................................	}
+5. ....................................	}
+6. ....................................	}
+Name and address to which registered copy is to be returned ...............
+* Enter name of trade union/employers' organisation /federation
+NOTE.
+(a) Two copies of this notice, signed by the secretary and by seven members of the trade union, must be sent to the Registrar within fourteen days of the dissolution.
+(b) The dissolution of a trade union/employers' organisation /federation has effect from the date of its registration by the Registrar.
+__________________
+FORM P	(s. 29(2)(a))
+THE LABOUR RELATIONS ACT
+CERTIFICATE OF DISSOLUTION
+It is certified that the dissolution of the ................... has this day been registered pursuant to section 29 of the Labour Relations Act.
+Dated the ....................., 20 ...........
+[Signed] .............................................
+                                   Registrar of Trade Unions __________________
+FORM Q	(s. 35(2))
+THE LABOUR RELATIONS ACT
+NOTICE OF CHANGE OF NAMES OR TITLES OF OFFICERS/OFFICIALS
+To: The Registrar of Trade Unions.
+Nairobi.
+The *.................................... gives you notice that the names [titles] of the Officials of the trade union/ employers' organisation /federation specified in the first column hereunder have been altered or those specified in the second column, with effect from the date specified in the third column.
+Old name and titleNew name and titleEffective date of alterationDated the ....................., 20 ...................
+[Signed] .............................................
+General Secretary/Secretary-General
+* Enter name of trade union/employers' organisation/federation
+NOTE
+(a) Notice of all changes of Officers/Officials or of the title of any officer/official must be sent to the Registrar within fourteen days after such change.
+(b) This notice must be signed by the secretary of the trade union/employers' organisation /federation and must be accompanied by the prescribed registration fee.
+THIRD SCHEDULE
+FORMS
+FORM R	(s. 42(4))
+THE LABOUR RELATIONS ACT
+THE GENERAL STATEMENT OF STATUS OF TRADE UNION/
+EMPLOYERS' ORGANISATION /FEDERATION AND ITS ACCOUNTS
+Annual Return of .............. for the year ended 31st December, 20 .........
+Particulars of the Trade Union/Employers' Organisation /Federation
+1. Physical location of registered office ....................
+2. Postal address ........................................
+3. Has the trade union/employers' organisation /federation any branches? If so, state the situation of, and number of members in, each branch ....................
+4. In what trade or calling are the members of the trade union/employers' organisation /federation chiefly employed? ....................
+5. Total number of male voting members at 31s1 December, 20 ........
+Total number of female voting members at 31sf December 20 ...........
+Total
+*Enter name of trade union/employers' organisation/federation.
+PARTICULARS OF THE OFFICER/OFFICIALS AND EXECUTIVE COMMITTEE OF THE TRADE UNION AS AT 31sT DECEMBER, 20 .......
+Title of officer/officialName in fullAddressDate of appointmentIt is certified as follows—
+(a) none of the above-mentioned officer/officials has been convicted of any crime involving fraud or dishonesty;
+(b) none of the above-mentioned officer/officials is an officer/official of any other trade union/ employers' organisation /federation;
+(c) all the above-mentioned officials (except the secretary and .............) are actually engaged in the industry or occupation of ..................... with which this trade union/employers' organisation / federation is directly concerned, the said ...................... having become office bearers on the ..............., 20 ................ with the permission of the Registrar pursuant to section 34 of the Act.
+PARTICULARS OF TRUSTEES
+Name in fullAddressDate of appointmentPARTICULARS OF ASSETS AS PER THE TRUSTEES
+Title No.DescriptionDate of AcquisitionCurrent StatusINCOME AND EXPENDITURE ACCOUNT FOR THE YEAR ENDED 31ST DECEMBER, 20 ..........
+INCOMEEXPENDITURE(1) Members' contributions (including those of branch members.
+(a) subscriptions (b) entrance fees
+(c) other contributions from members (to be specified)
+(2) Bank interest:
+(3) Miscellaneous income (to beshown in detail):
+............................
+Total
+Balance brought forward from previous yearSh.cts.(1) Benefits paid tomembers):
+(2) Working expenses
+(a) head office
+(b) branches
+(3) Other expenditure (to bespecified)
+...................
+................
+(4) Balance of general fundsat the end of the yearSh.cts.TOTALTOTALINCOMEEXPENDITUREBALANCE SHEET AS AT 31ST DECEMBER, 20 ...........
+LiabilitiesAssetsSh.cts.Sh.cts.
+AUDITOR'S REPORT
+The undersigned, having had access to all the books and accounts of the trade union/employers' organisation/federation (including its branches), and having examined the Annual Return and verified the same with the accounts and vouchers relating thereto, now sign the same as found to be correct, duly vouched, and in accordance with law.
+	...............................................	...............................................
+	[Signature of First Auditor]	[Signature of Second Auditor]
+	Address ...............................	Address ...............................
+	Profession ..................................	Profession ..................................
+Date of completion of audit ................, 20 ................
+Dated the ..............., 20 .............
+[Signed] .............................. General Secretary/Secretary-General
+TO. The Registrar of Trade Unions, Nairobi.
+NOTE
+(a)	This return is required to be furnished to the Registrar by the General Secretary of every registered trade union/employers' organisation /federation on or before the first day of April of the year immediately following that in respect of which the return is rendered. (b)	This return should be accompanied by—
+(i) a copy, marked A, of the constitution of the trade union in force at the end of the year;
+(ii) a copy, marked B, of all alterations and amendments of the constitution, made during the year; and
+(iii) a list, marked C, of all changes of officer/officials made during that year.
+_______________________
+FORM S	(s. 48(3))
+NOTICE TO EMPLOYER AUTHORIZING DEDUCTIONS
+To: .................................
+1. In pursuance of an order made with effect from ........................ by the Cabinet Secretary under section 48 of the Labour Relations Act, I, on behalf of the .............................. (trade union), hereby request you to deduct from the wages of the employees listed in this Notice, being employees who have acknowledged
+membership of the ........................................ (trade union), the sum of shillings ....................... monthly as their current trade union dues.
+2. The total amount of deduction so made is required to be proportioned and transmitted as follows:
+(a) .................... per cent thereof to the .................... (trade union) by crossed cheque made payable into the .................... account of that trade union at the ................ Bank.
+(b) ...................... per cent thereof to the ................ (federation) by crossed cheque made payable into the .................... account of that federation at the .................... Bank.
+3. (1) The remittances should be made, and notices thereof should be delivered, not later than the .................... day of the month next after the month in respect of which the deductions are made.
+(2) Notices of remittances should be delivered to the .................... (trade union) at .................... (address), and to the .................... (federation) at ................... (address).
+(3) The above-named trade union and federation are required by Section 50 of the Labour Relations Act to deliver a receipt for every remittance within fourteen days of receipt of notice of such remittance.
+(4) The employer to whom this notice is addressed is required to make returns to the Registrar of Trade Unions of all payments made hereunder, in accordance with the order of the Cabinet Secretary.
+4. This notice applies to employees' wages payable by you at the end of the month next following the month shown in the date hereof.
+Date ........................, 20 ................
+.............................................
+Secretary-General
+Trade Union
+COPY TO:
+Registrar of Trade Unions,
+P. O. Box 30031, Nairobi.
+Employees in respect of whom deductions from wages are required to be made
+We, the undersigned, hereby acknowledge that we are members of the ................. (trade union):
+Union
+Membership NumberName of MembersSignaturesDateFOURTH SCHEDULE [s. 81]
+ESSENTIAL SERVICES
+1. Water Supply Services.
+2. Hospital Services.
+3. Air Traffic Control Services and Civil Aviation Telecommunications Services.
+4. Fire Services of the Government or Public Institutions.
+5. Posts Authority and Local Government Authorities.
+6. Ferry Services.
+FIFTH SCHEDULE [s. 84]
+TRANSITIONAL PROVISIONS
+Spent.
+Labour Relations Act (Cap. 233) 	 Kenya
+
+
+
+1
+
+
+
+Labour Relations Act (Cap. 233) 	 Kenya
+
+1
+
