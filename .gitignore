@@ -34,3 +34,6 @@ logs/
 
 # --- ML Models ---
 models/
+
+# --- Chroma DB ---
+data/scripts/chroma_db/
