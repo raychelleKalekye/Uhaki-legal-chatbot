@@ -37,4 +37,4 @@ data/models/
 
 # --- Chroma DB ---
 data/scripts/chroma_db/
-data/scripts/chroma_db/9657911c-7b9a-4699-ba73-241e2072993c/
+*.chroma
