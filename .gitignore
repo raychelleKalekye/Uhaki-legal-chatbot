@@ -36,4 +36,6 @@ logs/
 data/models/
 
 # --- Chroma DB ---
-data\scripts\chroma_db\
+chroma_db/
+data/scripts/chroma_db/
+*.chroma
