@@ -14,10 +14,7 @@ const MessageList = ({ messages = [], isTyping = false }) => {
   return (
     <div ref={listRef} className="message-list-container">
       {messages.map((m) => (
-        <div
-          key={m.id}
-          className={`message-row ${m.sender}`}
-        >
+        <div key={m.id} className={`message-row ${m.sender}`}>
           {m.sender === "uhaki" && (
             <img src={robotLogo} alt="Uhaki" className="avatar" />
           )}
