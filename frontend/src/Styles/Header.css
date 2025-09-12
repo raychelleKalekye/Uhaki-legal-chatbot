@@ -30,6 +30,8 @@
   color: #631BFF;   
   font-size: 30px;
   font-weight: 700;
+  position: absolute;
+  right:17px;
 }
 
 .links {
