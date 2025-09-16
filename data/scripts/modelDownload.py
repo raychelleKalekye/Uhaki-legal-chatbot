@@ -1,6 +1,5 @@
 import os
 from sentence_transformers import SentenceTransformer
-import chromadb
 from huggingface_hub import snapshot_download
 
 local_model_path = "../models/legal-bert-base-uncased"
@@ -23,7 +22,3 @@ except Exception as e:
     print("Error loading model:", e)
     raise
 
-# Initialize ChromaDB
-# client = chromadb.PersistentClient(path="chroma_db")
-# collection = client.get_or_create_collection(name="LegalActs")
-# print("ChromaDB is ready")
