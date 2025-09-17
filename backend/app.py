@@ -5,6 +5,13 @@ from flask_cors import CORS
 from transformers import AutoTokenizer, AutoModelForSequenceClassification, pipeline
 from sentence_transformers import SentenceTransformer
 import chromadb
+import sys
+import pandas as pd
+
+csv_file = os.path.abspath("../outputs/queryLog.csv")
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../data/scripts")))
+from reranker import rerank_results
 
 app = Flask(__name__)
 CORS(app)
@@ -63,54 +70,49 @@ def ask_query():
     if not query:
         return jsonify({"error": "No query provided"}), 400
 
+    # Classification
     result = classifier(query)[0]
     predicted_act = result['label']
     confidence = float(result['score'])
 
-    retrieved_chunks = retrieve_from_chroma(query, predicted_act, top_k=3)
+    # Retrieve and rerank
+    retrieved_chunks = retrieve_from_chroma(query, predicted_act, top_k=10)
+    reranked_chunks = rerank_results(query, retrieved_chunks)
 
-    # Log everything including full chunks
+    # Logging to app.log
     logging.info(
         f'Query: "{query}" | Predicted Act: "{predicted_act}" | '
-        f'Confidence: {confidence:.2f} | Retrieved {len(retrieved_chunks)} chunks'
+        f'Confidence: {confidence:.2f} | Retrieved {len(reranked_chunks)} chunks'
     )
-    for chunk in retrieved_chunks:
+    for chunk in reranked_chunks:
         logging.info(
-            f'[CHUNK] Rank: {chunk["rank"]} | Metadata: {chunk["metadata"]} | '
+            f'[CHUNK] Rerank Score: {chunk.get("rerank_score", 0):.4f} | '
+            f'Metadata: {chunk["metadata"]} | '
             f'Text: {chunk["text"][:300]}{"..." if len(chunk["text"]) > 300 else ""}'
         )
+
+    # Prepare CSV entry (top chunk only)
+    top_chunk_text = reranked_chunks[0]["text"] if reranked_chunks else ""
+    top_chunk_section = reranked_chunks[0]["metadata"].get("section", "") if reranked_chunks else ""
+
+    entry = pd.DataFrame({
+        "Query": [query],
+        "Predicted_Act": [predicted_act],
+        "Confidence": [confidence],
+        "Top_Chunk_Text": [top_chunk_text],
+        "Top_Chunk_Section": [top_chunk_section]
+    })
+
+    if os.path.exists(csv_file):
+        entry.to_csv(csv_file, mode='a', index=False, header=False)
+    else:
+        entry.to_csv(csv_file, mode='w', index=False, header=True)
 
     return jsonify({
         "query": query,
         "predicted_act": predicted_act,
         "confidence": round(confidence, 2),
-        "top_results": retrieved_chunks
-    })
-
-@app.route('/retrieve', methods=['POST'])
-def retrieve_texts():
-    data = request.get_json()
-    query = data.get('query', '').strip()
-    act = data.get('act', '').strip()
-    if not query or not act:
-        return jsonify({"error": "Both query and act are required"}), 400
-
-    retrieved_chunks = retrieve_from_chroma(query, act, top_k=3)
-
-    # Log everything including full chunks
-    logging.info(
-        f'[RETRIEVE] Query: "{query}" | Act: "{act}" | Retrieved {len(retrieved_chunks)} chunks'
-    )
-    for chunk in retrieved_chunks:
-        logging.info(
-            f'[CHUNK] Rank: {chunk["rank"]} | Metadata: {chunk["metadata"]} | '
-            f'Text: {chunk["text"][:300]}{"..." if len(chunk["text"]) > 300 else ""}'
-        )
-
-    return jsonify({
-        "query": query,
-        "act": act,
-        "top_results": retrieved_chunks
+        "top_results": reranked_chunks
     })
 
 if __name__ == '__main__':
