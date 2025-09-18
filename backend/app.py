@@ -33,17 +33,17 @@ embedder = SentenceTransformer(r"../data/models/legal-bert-base-uncased")
 client = chromadb.PersistentClient(path="../data/scripts/chroma_db")
 collection = client.get_collection(name="LegalActs")
 
-def retrieve_from_chroma(query: str, act: str, top_k: int = 3):
-    """Query ChromaDB for top matching chunks."""
+def retrieve_from_chroma(query: str, act: str = None, top_k: int = 3):
+    """Query ChromaDB for top matching chunks, optionally filtered by Act."""
     retrieved_chunks = []
     try:
         query_embedding = embedder.encode([query]).tolist()[0]
 
-        search_results = collection.query(
-            query_embeddings=[query_embedding],
-            n_results=top_k,
-            where={"act": act}
-        )
+        search_kwargs = {"n_results": top_k, "query_embeddings": [query_embedding]}
+        if act:  # only filter if act is provided
+            search_kwargs["where"] = {"act": act}
+
+        search_results = collection.query(**search_kwargs)
 
         if search_results and "documents" in search_results:
             for i, doc in enumerate(search_results["documents"][0]):
@@ -59,9 +59,6 @@ def retrieve_from_chroma(query: str, act: str, top_k: int = 3):
 
     return retrieved_chunks
 
-@app.route('/')
-def home():
-    return "Uhaki backend is running!"
 
 @app.route('/askQuery', methods=['POST'])
 def ask_query():
@@ -75,11 +72,22 @@ def ask_query():
     predicted_act = result['label']
     confidence = float(result['score'])
 
-    # Retrieve and rerank
-    retrieved_chunks = retrieve_from_chroma(query, predicted_act, top_k=10)
+    # Decide retrieval scope
+    if confidence >= 0.6:
+        retrieved_chunks = retrieve_from_chroma(query, predicted_act, top_k=10)
+        logging.info(
+            f'High confidence ({confidence:.2f}). Restricting retrieval to "{predicted_act}".'
+        )
+    else:
+        retrieved_chunks = retrieve_from_chroma(query, act=None, top_k=10)
+        logging.info(
+            f'Low confidence ({confidence:.2f}). Expanding retrieval across ALL Acts.'
+        )
+
+    # Rerank results
     reranked_chunks = rerank_results(query, retrieved_chunks)
 
-    # Logging to app.log
+    # Logging chunks
     logging.info(
         f'Query: "{query}" | Predicted Act: "{predicted_act}" | '
         f'Confidence: {confidence:.2f} | Retrieved {len(reranked_chunks)} chunks'
@@ -114,6 +122,7 @@ def ask_query():
         "confidence": round(confidence, 2),
         "top_results": reranked_chunks
     })
+
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
