@@ -7,7 +7,7 @@ from transformers import pipeline
 qa_generator = pipeline("text2text-generation", model="google/flan-t5-small")
 
 
-input_folder = "../ActsinChunks"
+input_folder = "../newActs"
 output_folder = "../ActsinQuestions"
 
 

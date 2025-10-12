@@ -38,13 +38,11 @@ def retrieve_from_chroma(query: str, act: str = None, top_k: int = 3):
     retrieved_chunks = []
     try:
         query_embedding = embedder.encode([query]).tolist()[0]
-
         search_kwargs = {"n_results": top_k, "query_embeddings": [query_embedding]}
-        if act:  # only filter if act is provided
+        if act:
             search_kwargs["where"] = {"act": act}
 
         search_results = collection.query(**search_kwargs)
-
         if search_results and "documents" in search_results:
             for i, doc in enumerate(search_results["documents"][0]):
                 chunk = {
@@ -59,7 +57,6 @@ def retrieve_from_chroma(query: str, act: str = None, top_k: int = 3):
 
     return retrieved_chunks
 
-
 @app.route('/askQuery', methods=['POST'])
 def ask_query():
     data = request.get_json()
@@ -67,30 +64,29 @@ def ask_query():
     if not query:
         return jsonify({"error": "No query provided"}), 400
 
-    # Classification
+    # --- Step 1: Classifier ---
     result = classifier(query)[0]
     predicted_act = result['label']
     confidence = float(result['score'])
+    logging.info(f'Classifier predicted: {predicted_act} ({confidence:.2f})')
 
-    # Decide retrieval scope
+    # --- Step 2: Retrieval with classifier fallback ---
     if confidence >= 0.6:
-        retrieved_chunks = retrieve_from_chroma(query, predicted_act, top_k=10)
+        act_chunks = retrieve_from_chroma(query, predicted_act, top_k=8)
+        global_chunks = retrieve_from_chroma(query, act=None, top_k=5)
+        retrieved_chunks = act_chunks + global_chunks
         logging.info(
-            f'High confidence ({confidence:.2f}). Restricting retrieval to "{predicted_act}".'
+            f'High confidence ({confidence:.2f}). Retrieved {len(act_chunks)} Act chunks + {len(global_chunks)} global chunks.'
         )
     else:
-        retrieved_chunks = retrieve_from_chroma(query, act=None, top_k=10)
+        retrieved_chunks = retrieve_from_chroma(query, act=None, top_k=12)
         logging.info(
-            f'Low confidence ({confidence:.2f}). Expanding retrieval across ALL Acts.'
+            f'Low confidence ({confidence:.2f}). Retrieved {len(retrieved_chunks)} global chunks.'
         )
 
-    # Rerank results
     reranked_chunks = rerank_results(query, retrieved_chunks)
-
-    # Logging chunks
     logging.info(
-        f'Query: "{query}" | Predicted Act: "{predicted_act}" | '
-        f'Confidence: {confidence:.2f} | Retrieved {len(reranked_chunks)} chunks'
+        f'Query: "{query}" | Predicted Act: "{predicted_act}" | Confidence: {confidence:.2f} | Retrieved {len(reranked_chunks)} chunks'
     )
     for chunk in reranked_chunks:
         logging.info(
@@ -99,7 +95,7 @@ def ask_query():
             f'Text: {chunk["text"][:300]}{"..." if len(chunk["text"]) > 300 else ""}'
         )
 
-    # Prepare CSV entry (top chunk only)
+    # --- Step 3: Save query + top chunk info only ---
     top_chunk_text = reranked_chunks[0]["text"] if reranked_chunks else ""
     top_chunk_section = reranked_chunks[0]["metadata"].get("section", "") if reranked_chunks else ""
 
@@ -116,13 +112,13 @@ def ask_query():
     else:
         entry.to_csv(csv_file, mode='w', index=False, header=True)
 
+    # --- Step 4: Return top chunks ---
     return jsonify({
         "query": query,
         "predicted_act": predicted_act,
         "confidence": round(confidence, 2),
-        "top_results": reranked_chunks
+        "top_results": reranked_chunks[:5]  # return top 5 only
     })
-
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
