@@ -1,17 +1,18 @@
-import os
-import logging
+import os, logging, json, time
+from typing import List, Dict, Any, Optional
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-from transformers import AutoTokenizer, AutoModelForSequenceClassification, pipeline
 from sentence_transformers import SentenceTransformer
 import chromadb
-import sys
 import pandas as pd
 
-csv_file = os.path.abspath("../outputs/queryLog.csv")
-
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../data/scripts")))
-from reranker import rerank_results
+CHROMA_PATH      = os.getenv("CHROMA_PATH", "../data/scripts/chroma")
+COLLECTION_NAME  = os.getenv("COLLECTION_NAME", "actSectionsV2")
+MODEL_NAME       = os.getenv("HF_MODEL", "intfloat/e5-base-v2")
+TOP_K_RETRIEVE   = int(os.getenv("TOP_K_RETRIEVE", "12"))
+TOP_K_RETURN     = int(os.getenv("TOP_K_RETURN", "5"))
+USE_RERANKER     = os.getenv("USE_RERANKER", "1") == "1"
+CSV_LOG          = os.path.abspath(os.getenv("CSV_LOG", "../outputs/newqueryLog.csv"))
 
 app = Flask(__name__)
 CORS(app)
@@ -23,102 +24,155 @@ logging.basicConfig(
     datefmt='%Y-%m-%d %H:%M:%S'
 )
 
-model_path = os.path.abspath(r"../data/models/roberta_classifier_retrained")
-tokenizer = AutoTokenizer.from_pretrained(model_path, local_files_only=True)
-model = AutoModelForSequenceClassification.from_pretrained(model_path, local_files_only=True)
-classifier = pipeline("text-classification", model=model, tokenizer=tokenizer)
+embedder = SentenceTransformer(MODEL_NAME)
+embedder.max_seq_length = 512
 
-embedder = SentenceTransformer(r"../data/models/legal-bert-base-uncased")
+client = chromadb.PersistentClient(path=CHROMA_PATH)
+collection = client.get_collection(name=COLLECTION_NAME)
 
-client = chromadb.PersistentClient(path="../data/scripts/chroma_db")
-collection = client.get_collection(name="LegalActs")
-
-def retrieve_from_chroma(query: str, act: str = None, top_k: int = 3):
-    """Query ChromaDB for top matching chunks, optionally filtered by Act."""
-    retrieved_chunks = []
+reranker = None
+if USE_RERANKER:
     try:
-        query_embedding = embedder.encode([query]).tolist()[0]
-        search_kwargs = {"n_results": top_k, "query_embeddings": [query_embedding]}
-        if act:
-            search_kwargs["where"] = {"act": act}
-
-        search_results = collection.query(**search_kwargs)
-        if search_results and "documents" in search_results:
-            for i, doc in enumerate(search_results["documents"][0]):
-                chunk = {
-                    "rank": i + 1,
-                    "text": doc,
-                    "metadata": search_results["metadatas"][0][i]
-                }
-                retrieved_chunks.append(chunk)
-
+        from reranker import rerank_results  # must accept (query, chunks) and return same shape
+        reranker = rerank_results
+        logging.info("[INIT] Reranker loaded.")
     except Exception as e:
-        logging.error(f"[RETRIEVE-FUNC] ChromaDB error: {e}")
+        logging.warning(f"[INIT] Reranker not available: {e}. Continuing without rerank.")
+        reranker = None
 
-    return retrieved_chunks
+def embed_query_e5(q: str):
+    """E5 requires 'query: ' prefix + normalized embedding."""
+    return embedder.encode("query: " + q, normalize_embeddings=True).tolist()
 
-@app.route('/askQuery', methods=['POST'])
+def sanitize_meta(m: Dict[str, Any]) -> Dict[str, Any]:
+    out = {}
+    for k, v in (m or {}).items():
+        if v is None:
+            continue
+        if isinstance(v, (bool, int, float, str)):
+            out[k] = v
+        else:
+            out[k] = str(v)
+    return out
+
+def retrieve(query: str, act: Optional[str], top_k: int) -> Dict[str, Any]:
+    """Returns dict: {'chunks': [...], 'timings': {...}}"""
+    t0 = time.perf_counter()
+
+    # Embed
+    t1 = time.perf_counter()
+    q_emb = embed_query_e5(query)
+    t2 = time.perf_counter()
+
+    # Chroma query (remove invalid include 'ids')
+    kwargs = {
+        "query_embeddings": [q_emb],
+        "n_results": top_k,
+        "include": ["documents", "metadatas", "distances"],  # valid include keys
+    }
+    if act:
+        kwargs["where"] = {"act": act}
+
+    try:
+        res = collection.query(**kwargs)
+    except Exception as e:
+        logging.error(f"[RETRIEVE] collection.query failed: {e}")
+        raise
+
+    # Extract
+    docs  = res.get("documents", [[]])[0]
+    metas = [sanitize_meta(m) for m in res.get("metadatas", [[]])[0]]
+    dists = res.get("distances", [[]])[0]
+    ids   = res.get("ids", [[]])[0]  # IDs are returned automatically; no need to include
+
+    chunks = []
+    for i in range(len(docs)):
+        dist = dists[i] if i < len(dists) else None
+        sim = (1.0 - dist) if (dist is not None) else None
+        chunks.append({
+            "rank": i + 1,
+            "score": round(sim, 4) if sim is not None else None,
+            "id": ids[i] if i < len(ids) else None,
+            "text": docs[i],
+            "metadata": metas[i] if i < len(metas) else {},
+        })
+    t3 = time.perf_counter()
+
+    timings = {
+        "embed_ms": round((t2 - t1) * 1000, 2),
+        "query_ms": round((t3 - t2) * 1000, 2),
+        "total_ms": round((t3 - t0) * 1000, 2),
+        "rerank_ms": 0.0,  # filled later if rerank runs
+    }
+    return {"chunks": chunks, "timings": timings}
+
+def maybe_rerank(query: str, chunks: List[Dict[str, Any]]) -> (List[Dict[str, Any]], float):
+    if reranker and chunks:
+        t0 = time.perf_counter()
+        try:
+            out = reranker(query, chunks)  # should return same item schema
+        except Exception as e:
+            logging.warning(f"[RERANK] Failed, returning retriever results: {e}")
+            return chunks, 0.0
+        t1 = time.perf_counter()
+        return out, round((t1 - t0) * 1000, 2)
+    return chunks, 0.0
+
+def log_to_csv(row: Dict[str, Any]):
+    df = pd.DataFrame([row])
+    if os.path.exists(CSV_LOG):
+        df.to_csv(CSV_LOG, mode="a", index=False, header=False)
+    else:
+        os.makedirs(os.path.dirname(CSV_LOG), exist_ok=True)
+        df.to_csv(CSV_LOG, mode="w", index=False, header=True)
+
+@app.route("/askQuery", methods=["POST"])
 def ask_query():
-    data = request.get_json()
-    query = data.get('query', '').strip()
+    data = request.get_json(force=True) or {}
+    query = (data.get("query") or "").strip()
+    act   = (data.get("act") or "").strip() or None
+
     if not query:
         return jsonify({"error": "No query provided"}), 400
 
-    # --- Step 1: Classifier ---
-    result = classifier(query)[0]
-    predicted_act = result['label']
-    confidence = float(result['score'])
-    logging.info(f'Classifier predicted: {predicted_act} ({confidence:.2f})')
+    # Retrieve
+    try:
+        ret = retrieve(query, act, TOP_K_RETRIEVE)
+        retrieved = ret["chunks"]
+        timings = ret["timings"]
+    except Exception as e:
+        return jsonify({"error": f"Retrieval failed: {str(e)}"}), 500
 
-    # --- Step 2: Retrieval with classifier fallback ---
-    if confidence >= 0.6:
-        act_chunks = retrieve_from_chroma(query, predicted_act, top_k=8)
-        global_chunks = retrieve_from_chroma(query, act=None, top_k=5)
-        retrieved_chunks = act_chunks + global_chunks
-        logging.info(
-            f'High confidence ({confidence:.2f}). Retrieved {len(act_chunks)} Act chunks + {len(global_chunks)} global chunks.'
-        )
-    else:
-        retrieved_chunks = retrieve_from_chroma(query, act=None, top_k=12)
-        logging.info(
-            f'Low confidence ({confidence:.2f}). Retrieved {len(retrieved_chunks)} global chunks.'
-        )
+    # (Optional) Rerank
+    final, rerank_ms = maybe_rerank(query, retrieved)
+    timings["rerank_ms"] = rerank_ms
+    timings["total_ms"] = round(timings["total_ms"] + rerank_ms, 2)
 
-    reranked_chunks = rerank_results(query, retrieved_chunks)
-    logging.info(
-        f'Query: "{query}" | Predicted Act: "{predicted_act}" | Confidence: {confidence:.2f} | Retrieved {len(reranked_chunks)} chunks'
-    )
-    for chunk in reranked_chunks:
-        logging.info(
-            f'[CHUNK] Rerank Score: {chunk.get("rerank_score", 0):.4f} | '
-            f'Metadata: {chunk["metadata"]} | '
-            f'Text: {chunk["text"][:300]}{"..." if len(chunk["text"]) > 300 else ""}'
-        )
+    # Prepare top result summary for logs
+    top = final[0] if final else {}
+    top_meta = top.get("metadata", {}) if top else {}
+    log_row = {
+        "Query": query,
+        "Act_Filter": act or "",
+        "Top_Act": top_meta.get("act", ""),
+        "Top_Section": top_meta.get("section", ""),
+        "Top_Score": top.get("score", ""),
+        "Embed_ms": timings["embed_ms"],
+        "Query_ms": timings["query_ms"],
+        "Rerank_ms": timings["rerank_ms"],
+        "Total_ms": timings["total_ms"],
+    }
+    try:
+        log_to_csv(log_row)
+    except Exception as e:
+        logging.warning(f"[CSV] Failed to log: {e}")
 
-    # --- Step 3: Save query + top chunk info only ---
-    top_chunk_text = reranked_chunks[0]["text"] if reranked_chunks else ""
-    top_chunk_section = reranked_chunks[0]["metadata"].get("section", "") if reranked_chunks else ""
-
-    entry = pd.DataFrame({
-        "Query": [query],
-        "Predicted_Act": [predicted_act],
-        "Confidence": [confidence],
-        "Top_Chunk_Text": [top_chunk_text],
-        "Top_Chunk_Section": [top_chunk_section]
-    })
-
-    if os.path.exists(csv_file):
-        entry.to_csv(csv_file, mode='a', index=False, header=False)
-    else:
-        entry.to_csv(csv_file, mode='w', index=False, header=True)
-
-    # --- Step 4: Return top chunks ---
     return jsonify({
         "query": query,
-        "predicted_act": predicted_act,
-        "confidence": round(confidence, 2),
-        "top_results": reranked_chunks[:5]  # return top 5 only
+        "act_filter": act,
+        "timings": timings,                
+        "top_results": final[:TOP_K_RETURN]
     })
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     app.run(debug=True, port=5000)

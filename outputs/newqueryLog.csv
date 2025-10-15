@@ -1,0 +1,11 @@
+Query,Act_Filter,Top_Act,Top_Section,Top_Score,Embed_ms,Query_ms,Rerank_ms,Total_ms
+what is the role of the childrens' court?,,Children Act,2 – Interpretation,0.6977,1005.39,1454.36,0.0,2459.76
+What are the types of marriages recognized under Kenyan law?,,Marriage Act,59 – Evidence of marriage,0.744,70.59,54.36,0.0,124.94
+What makes a contract valid under Kenyan law?,,Employment Act,35 – Termination notice,0.7407,79.5,82.57,0.0,162.07
+Can I evict a tenant without going through the court?,,Land Act,77 – Unlawful eviction,0.6508,199.48,216.01,0.0,415.49
+Who can become the President of Kenya?,,Constitution of Kenya,131 – Authority of the President,0.7399,67.99,106.23,0.0,174.22
+can damages be reduced if the deceased was partly at fault?,,Fatal Accidents Act,6 – Funeral expenses may be awarded,0.6757,129.26,134.87,0.0,264.13
+Is the owner of a vehicle responsible if a passenger dies in a crash?,,Value Added Tax Act,"91 – Specially designed locally assembled motor vehicles for transportation of tourists, purchased before clearance through Customs by tour operators upon recommendation by the competent authority responsible for tourism promotion, provided the vehicles meet the following conditions—",0.6391,74.73,81.01,0.0,155.73
+Are gifts and inheritances taxable?,,Law of Succession Act,40 – Gift of income for indefinite period,0.7003,60.78,57.99,0.0,118.76
+Is interest earned from a savings account subject to income tax?,,Income Tax Act,3 – Charge of tax,0.674,74.33,46.81,0.0,121.15
+How do I appeal a tax assessment I disagree with?,,Tax Procedures Act,52 – Appeal of appealable decision to the Tribunal,0.765,64.14,24.25,0.0,88.39

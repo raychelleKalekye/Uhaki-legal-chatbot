@@ -1,20 +1,29 @@
 from sentence_transformers import SentenceTransformer
 import chromadb
+import numpy as np
 
-model = SentenceTransformer("../models/legal-bert-base-uncased")
+MODEL_NAME = "intfloat/e5-base-v2"
+COLLECTION_NAME = "actSectionsV2"
 
+model = SentenceTransformer(MODEL_NAME)
+model.max_seq_length = 512
 
-client = chromadb.PersistentClient(path="chroma_db")
-collection = client.get_collection(name="LegalActs")
+client = chromadb.PersistentClient(path="./chroma")   
+collection = client.get_collection(name=COLLECTION_NAME)
 
-query = "What are the rules on termination of employment under the Employment Act of Kenya?"
+query_text = "What are the rules on termination of employment under the Employment Act of Kenya?"
 
+query_emb = model.encode("query: " + query_text, normalize_embeddings=True)
 
 results = collection.query(
-    query_embeddings=[model.encode([query])[0].tolist()],
-    n_results=3  # top 3 results
+    query_embeddings=[query_emb.tolist()],
+    n_results=3
 )
 
-print("Query results:")
-for doc in results["documents"][0]:
-    print(doc, "\n---\n")
+print("\n Query Results:")
+for i, (doc, meta) in enumerate(zip(results["documents"][0], results["metadatas"][0]), start=1):
+    print(f"\nResult {i}:")
+    print(f"Act: {meta.get('act')}")
+    print(f"Section: {meta.get('section')}")
+    print(f"Text:\n{doc[:500]}...")  
+    print("-" * 80)
