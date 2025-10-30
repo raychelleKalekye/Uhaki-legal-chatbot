@@ -76,8 +76,7 @@ const ChatPage = () => {
       sender: 'uhaki',
       text:
         (data.act_filter ? `Act filter: ${data.act_filter}\n\n` : '') +
-        top +
-        `\n\n(use “act: <Act Name>” in your question to filter results)`,
+        top ,
     };
 
     setMessages((prev) => [...prev, botMessage]);

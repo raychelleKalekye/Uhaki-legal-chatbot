@@ -14,8 +14,8 @@ def main():
     parser.add_argument("--model", type=str, default="intfloat/e5-base-v2", help="SentenceTransformer model name")
     parser.add_argument("--top_k", type=int, default=3, help="Number of results to retrieve per question")
     parser.add_argument("--max_answer_chars", type=int, default=900, help="Trim retrieved doc text to this many chars")
-    parser.add_argument("--csv_path", type=str, default="../ActsinQuestions/kenyan_acts_common_questions.csv")
-    parser.add_argument("--output_path", type=str, default="./csvResponses.csv")
+    parser.add_argument("--csv_path", type=str, default="../ActsinQuestions/trialQuestions2.csv")
+    parser.add_argument("--output_path", type=str, default="./csvResponses2.csv")
     args = parser.parse_args()
 
     try:
