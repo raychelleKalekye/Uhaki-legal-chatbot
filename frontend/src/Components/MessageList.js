@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
-import '../Styles/MessageList.css';
-import robotLogo from '../Assets/robotlogo.webp'; 
+import "../Styles/MessageList.css";
+import robotLogo from "../Assets/robotlogo.webp";
 
 const MessageList = ({ messages = [], isTyping = false }) => {
   const listRef = useRef(null);
@@ -18,10 +18,29 @@ const MessageList = ({ messages = [], isTyping = false }) => {
           {m.sender === "uhaki" && (
             <img src={robotLogo} alt="Uhaki" className="avatar" />
           )}
+
           <div className={`bubble ${m.sender}`}>
             <div className="bubble-text">{m.text}</div>
             {m.time && <div className="bubble-meta">{m.time}</div>}
           </div>
+
+          
+          {m.sender === "uhaki" && (
+            <button
+              className="copy-btn"
+             onClick={(e) => {
+                navigator.clipboard.writeText(m.text);
+                const btn = e.currentTarget;
+                const oldText = btn.innerText;
+                btn.innerText = " Copied!";
+                setTimeout(() => (btn.innerText = oldText), 1000);
+              }}
+
+
+            >
+              📋 Copy
+            </button>
+          )}
         </div>
       ))}
 
