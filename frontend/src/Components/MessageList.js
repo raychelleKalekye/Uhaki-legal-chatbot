@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from "react";
+import ReactMarkdown from "react-markdown";
 import "../Styles/MessageList.css";
 import robotLogo from "../Assets/robotlogo.webp";
 
@@ -20,7 +21,18 @@ const MessageList = ({ messages = [], isTyping = false }) => {
           )}
 
           <div className={`bubble ${m.sender}`}>
-            <div className="bubble-text">{m.text}</div>
+            <div className="bubble-text">
+              <ReactMarkdown
+                skipHtml
+                components={{
+                  a: ({ node, ...props }) => (
+                    <a {...props} target="_blank" rel="noreferrer" />
+                  )
+                }}
+              >
+                {m.text || ""}
+              </ReactMarkdown>
+            </div>
             {m.time && <div className="bubble-meta">{m.time}</div>}
           </div>
 
