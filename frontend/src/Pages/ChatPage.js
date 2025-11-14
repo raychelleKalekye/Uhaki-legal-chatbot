@@ -6,29 +6,27 @@ import '../Styles/ChatPage.css';
 
 const ChatPage = ({ registerClear }) => {
   const [messages, setMessages] = useState([]);
+  const [isTyping, setIsTyping] = useState(false);
   const bottomRef = useRef(null);
 
   const generateId = () => `${Date.now()}-${Math.random().toString(36).substr(2, 5)}`;
 
-  
   useEffect(() => {
     const saved = localStorage.getItem("uhaki_chat_history");
     if (saved) {
       setMessages(JSON.parse(saved));
     } else {
       setMessages([
-        { id: generateId(), sender: 'uhaki', text: 'Hello, I’m Uhaki, a legal assistant. How may I help you?' }
+        { id: generateId(), sender: 'uhaki', text: 'Hello, I�?Tm Uhaki, a legal assistant. How may I help you?' }
       ]);
     }
   }, []);
 
-  
   useEffect(() => {
     if (messages.length > 0) {
       localStorage.setItem("uhaki_chat_history", JSON.stringify(messages));
     }
   }, [messages]);
-
 
   useEffect(() => {
     if (registerClear) {
@@ -37,7 +35,7 @@ const ChatPage = ({ registerClear }) => {
         if (confirmClear) {
           localStorage.removeItem("uhaki_chat_history");
           setMessages([
-            { id: generateId(), sender: 'uhaki', text: 'Hello, I’m Uhaki, a legal assistant. How may I help you?' }
+            { id: generateId(), sender: 'uhaki', text: 'Hello, I�?Tm Uhaki, a legal assistant. How may I help you?' }
           ]);
         }
       };
@@ -54,12 +52,12 @@ const ChatPage = ({ registerClear }) => {
     return () => window.removeEventListener('resize', setBBHeight);
   }, []);
 
- 
   const handleSend = async (text) => {
     if (!text.trim()) return;
 
     const userMessage = { id: generateId(), sender: 'user', text };
     setMessages((prev) => [...prev, userMessage]);
+    setIsTyping(true);
 
     try {
       const response = await fetch('http://localhost:5000/askQuery', {
@@ -74,32 +72,20 @@ const ChatPage = ({ registerClear }) => {
 
       const data = await response.json();
       const results = Array.isArray(data.top_results) ? data.top_results : [];
-      const answer = data.answer || "I'm sorry, I couldn’t find a clear answer from the available acts.";
+      const answer = data.answer || "I'm sorry, I couldn�?Tt find a clear answer from the available acts.";
+      const formattedSources = results.slice(0, 3).map((r) => ({
+        act: r.act || 'N/A',
+        section: r.section || 'N/A',
+        snippet: (r.text || '').replace(/\s+/g, ' ').slice(0, 200)
+      }));
 
-      
       const uhakiAnswer = {
         id: generateId(),
         sender: 'uhaki',
         text: answer,
+        sources: formattedSources
       };
       setMessages((prev) => [...prev, uhakiAnswer]);
-
-     
-      if (results.length > 0) {
-        const sources = results.slice(0, 3).map((r, i) => {
-          const act = r.act || '—';
-          const section = r.section || '—';
-          const snip = (r.text || '').replace(/\s+/g, ' ').slice(0, 200);
-          return `#${i + 1} ${act} – ${section}\n${snip}${snip.length === 200 ? '…' : ''}`;
-        }).join('\n\n');
-
-        const sourcesMessage = {
-          id: generateId(),
-          sender: 'uhaki',
-          text: `Sources I used:\n\n${sources}`,
-        };
-        setMessages((prev) => [...prev, sourcesMessage]);
-      }
 
     } catch (error) {
       console.error('Error sending query:', error);
@@ -111,14 +97,15 @@ const ChatPage = ({ registerClear }) => {
           text: 'Sorry, there was an error processing your query. Please try again shortly.',
         },
       ]);
+    } finally {
+      setIsTyping(false);
     }
   };
 
-  
   return (
     <div className="ChatPage">
       <main className="ChatScroll">
-        <MessageList messages={messages} />
+        <MessageList messages={messages} isTyping={isTyping} />
       </main>
 
       <div className="BottomBar" ref={bottomRef}>
