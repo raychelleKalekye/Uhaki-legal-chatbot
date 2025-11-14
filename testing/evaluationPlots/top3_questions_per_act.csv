@@ -1,0 +1,58 @@
+True_Act,True_Section,Question,QA_SemSim,NLI_QA_EntailProb
+Children Act,Section 194,How does one apply for relief concerning powers of court in adoption proceedings? during investigations,0.9429506063461304,0.9914274215698242
+Children Act,Section 24,What documents are needed to address parental responsibility? at the application stage,0.9296025633811951,0.9760000109672546
+Children Act,Section 73,What documents are needed to address foster care placement? at the application stage,0.929338812828064,0.9922826886177063
+Constitution of Kenya,Article 31,Who is entitled to relief concerning privacy? for an employer,0.9207775592803955,0.9907100200653076
+Constitution of Kenya,Article 27,How does one apply for relief concerning equality and freedom from discrimination? during investigations,0.9179497361183167,0.7739277482032776
+Constitution of Kenya,Article 43,What are the procedures for dealing with economic and social rights? for a claimant,0.9097208976745605,0.9903406500816345
+Criminal Procedure Code,Section 137,Who is entitled to relief concerning pleas? for an employer,0.927239716053009,0.9156803488731384
+Criminal Procedure Code,Section 357,What are the requirements for compliance with appeals to the High Court? for a private party,0.9186244010925293,0.991593599319458
+Criminal Procedure Code,Section 204,What are the procedures for dealing with withdrawal of complaint? for a claimant,0.9169667363166809,0.9925251007080078
+Distress for Rent Act,Section 3,What timelines apply when dealing with power to distrain for rent? at the hearing stage,0.9266905784606934,0.5060072541236877
+Distress for Rent Act,Section 10,What safeguards exist to protect rights relating to tenant’s remedies? at registration,0.9173796772956848,0.9840764403343201
+Distress for Rent Act,Section 5,How does one apply for relief concerning notice before sale? during investigations,0.9156801104545593,0.02677801623940468
+Employment Act,Section 9,How does one apply for relief concerning contract of service? during investigations,0.9403929114341736,0.9878383874893188
+Employment Act,Section 45,What timelines apply when dealing with unfair termination? at the hearing stage,0.923986554145813,0.833572506904602
+Employment Act,Section 49,What penalties apply where there is a breach relating to remedies for wrongful dismissal? during enforcement,0.9237992763519287,0.9479674100875854
+Evidence Act,Section 107,How does one apply for relief concerning burden of proof? during investigations,0.9341779351234436,0.99383544921875
+Evidence Act,Section 68,What timelines apply when dealing with secondary evidence? at the hearing stage,0.9221962690353394,0.997427761554718
+Evidence Act,Section 63,What documents are needed to address oral evidence? at the application stage,0.9205963015556335,0.9933618307113647
+Excise Duty Act,Section 5,What are the procedures for dealing with imposition of excise duty? for a claimant,0.9178386926651001,0.9978203773498535
+Excise Duty Act,Section 21,What documents are needed to address offences and penalties? at the application stage,0.9133462309837341,0.9054865837097168
+Excise Duty Act,Section 5,Who is entitled to relief concerning imposition of excise duty? for an employer,0.9091755151748657,0.9968044757843018
+Fatal Accidents Act,Section 8,How does one apply for relief concerning assessment of damages? during investigations,0.9182106852531433,0.9844999313354492
+Fatal Accidents Act,Section 4,What timelines apply when dealing with action for wrongful act causing death? at the hearing stage,0.9167953133583069,0.6731444597244263
+Fatal Accidents Act,Section 8,What penalties apply where there is a breach relating to assessment of damages? during enforcement,0.8977668285369873,0.9172812700271606
+Income Tax Act,Section 35,What are the requirements for compliance with withholding tax? for a private party,0.9408069252967834,0.9980792999267578
+Income Tax Act,Section 72,What documents are needed to address penalties for non-compliance? at the application stage,0.9099332094192505,0.996781587600708
+Income Tax Act,Section 72,What timelines apply when dealing with penalties for non-compliance? at the hearing stage,0.9025329351425171,0.8926206827163696
+Labour Relations Act,Section 4,What safeguards exist to protect rights relating to right to form trade union? at registration,0.9108989834785461,0.9712263345718384
+Labour Relations Act,Section 4,What does the law provide regarding right to form trade union?,0.9012222290039062,0.9646222591400146
+Labour Relations Act,Section 57,Who is entitled to relief concerning collective agreements? for an employer,0.8901035189628601,0.9891987442970276
+Land Act,Section 94,What are the requirements for compliance with transfer of charged land? for a private party,0.933381199836731,0.9380591511726379
+Land Act,Section 9,How does one apply for relief concerning management of public land? during investigations,0.9257501363754272,0.08019521087408066
+Land Act,Section 94,What are the procedures for dealing with transfer of charged land? for a claimant,0.9203886985778809,0.995381772518158
+Law of Contract Act,Section 3,What are the requirements for compliance with contracts required to be in writing? for a private party,0.9237483739852905,0.9923238754272461
+Law of Contract Act,Section 4,What documents are needed to address contracts by deed? at the application stage,0.92030930519104,0.9958220720291138
+Law of Contract Act,Section 4,What are the requirements for compliance with contracts by deed? for a private party,0.9188933372497559,0.9888856410980225
+Law of Succession Act,Section 76,What documents are needed to address revocation of grant? at the application stage,0.9231438636779785,0.995876669883728
+Law of Succession Act,Section 76,What are the requirements for compliance with revocation of grant? for a private party,0.9162992835044861,0.98831707239151
+Law of Succession Act,Section 83,What timelines apply when dealing with duties of personal representatives? at the hearing stage,0.9038859605789185,0.014119069091975689
+Marriage Act,Section 60,What penalties apply where there is a breach relating to grounds for divorce? during enforcement,0.9229303598403931,0.9626591801643372
+Marriage Act,Section 9,What penalties apply where there is a breach relating to registration of marriages? during enforcement,0.9175188541412354,0.6857715845108032
+Marriage Act,Section 60,How does one apply for relief concerning grounds for divorce? during investigations,0.9087963700294495,0.010597184300422668
+Persons with Disabilities Act,Section 22,What are the requirements for compliance with accessibility? for a private party,0.9045082926750183,0.9975243210792542
+Persons with Disabilities Act,Section 35,What timelines apply when dealing with tax exemptions? at the hearing stage,0.9001811742782593,0.013537191785871983
+Persons with Disabilities Act,Section 35,What documents are needed to address tax exemptions? at the application stage,0.9000574946403503,0.993133008480072
+Small Claims Court Act,Section 22,How does one apply for relief concerning filing a claim? during investigations,0.9191030859947205,0.9934638142585754
+Small Claims Court Act,Section 12,How does one apply for relief concerning jurisdiction of the court? during investigations,0.9126273989677429,0.9811935424804688
+Small Claims Court Act,Section 12,What penalties apply where there is a breach relating to jurisdiction of the court? during enforcement,0.9086405634880066,0.9831275939941406
+Tax Procedures Act,Section 29,What are the requirements for compliance with filing tax returns? for a private party,0.9251261949539185,0.9814768433570862
+Tax Procedures Act,Section 56,What penalties apply where there is a breach relating to appeals to tribunal? during enforcement,0.9127084016799927,0.984102189540863
+Tax Procedures Act,Section 31,What documents are needed to address tax assessments? at the application stage,0.9122685194015503,0.998728334903717
+Value Added Tax Act,Section 19,How does one apply for relief concerning output tax? during investigations,0.905493438243866,0.9384042024612427
+Value Added Tax Act,Section 7,What remedies are available in relation to registration for VAT? on appeal,0.9046106338500977,0.9909900426864624
+Value Added Tax Act,Section 23,What safeguards exist to protect rights relating to tax invoices? at registration,0.9022064805030823,0.9161587357521057
+Work Injury Benefits Act,Section 16,What are the requirements for compliance with compensation for temporary disablement? for a private party,0.9343631267547607,0.9955798983573914
+Work Injury Benefits Act,Section 16,What documents are needed to address compensation for temporary disablement? at the application stage,0.9282671809196472,0.9830389022827148
+Work Injury Benefits Act,Section 46,What penalties apply where there is a breach relating to employer’s obligations? during enforcement,0.9180054068565369,0.9357641339302063
