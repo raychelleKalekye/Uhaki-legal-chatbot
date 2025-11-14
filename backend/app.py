@@ -19,12 +19,21 @@ EMBED_MODEL     = os.getenv("HF_EMBED_MODEL", "intfloat/e5-base-v2")
 TOP_K_RETRIEVE  = int(os.getenv("TOP_K_RETRIEVE", "12"))
 TOP_K_RETURN    = int(os.getenv("TOP_K_RETURN", "5"))
 
-CSV_LOG         = os.path.abspath(os.getenv("CSV_LOG", "../outputs/newqueryLog.csv"))
+CSV_LOG         = os.path.abspath(os.getenv("CSV_LOG", "../outputs/queryLog.csv"))
 LOG_LEVEL       = os.getenv("APP_LOG_LEVEL", "DEBUG").upper()
 GENERATOR_URL   = os.getenv("GENERATOR_URL", "").strip()
 NOTEBOOK_API_KEY = os.getenv("NOTEBOOK_API_KEY", "")
 GENERATOR_TIMEOUT_S = int(os.getenv("GENERATOR_TIMEOUT_S", "120"))
 BACKEND_MODE    = "proxy" if GENERATOR_URL else "retrieval-only"
+LOG_COLUMNS     = [
+    "Query",
+    "Retrieved_Act",
+    "Top Chunk Section",
+    "Top Chunk Text",
+    "Model Answer",
+    "Runtime"
+]
+MAX_TOP_TEXT_CHARS = 500
 
 # ============================
 # App + Logging
@@ -101,8 +110,24 @@ def build_context(top_chunks: List[Dict[str, Any]]) -> str:
         parts.append(f"[{i}] {act_name} - {section_title}\n{text}\n")
     return "\n".join(parts)
 
+def build_query_log_row(query: str,
+                        top_chunk: Optional[Dict[str, Any]],
+                        model_answer: Optional[str],
+                        runtime_ms: Optional[float]) -> Dict[str, Any]:
+    chunk = top_chunk or {}
+    text = (chunk.get("text", "") or "")[:MAX_TOP_TEXT_CHARS]
+    runtime_val = round(runtime_ms, 2) if runtime_ms is not None else ""
+    return {
+        "Query": query,
+        "Retrieved_Act": chunk.get("act", ""),
+        "Top Chunk Section": chunk.get("section", ""),
+        "Top Chunk Text": text,
+        "Model Answer": model_answer or "",
+        "Runtime": runtime_val
+    }
+
 def embed_query_e5(q: str):
-    # e5 expects "query: " prefix for queries
+ 
     return embedder.encode("query: " + q, normalize_embeddings=True).tolist()
 
 def retrieve_dense(query: str, act: Optional[str], top_k: int) -> Tuple[List[Dict[str, Any]], float, float]:
@@ -174,9 +199,15 @@ def apply_rerank(query: str, chunks: List[Dict[str, Any]]) -> Tuple[List[Dict[st
     return reranked, dt
 
 def log_to_csv(row: Dict[str, Any]):
-    df = pd.DataFrame([row])
-    header = not os.path.exists(CSV_LOG)
-    df.to_csv(CSV_LOG, mode="a", index=False, header=header)
+    sanitized = {col: row.get(col, "") for col in LOG_COLUMNS}
+    df = pd.DataFrame([sanitized], columns=LOG_COLUMNS)
+    header_needed = True
+    if os.path.exists(CSV_LOG):
+        try:
+            header_needed = os.path.getsize(CSV_LOG) == 0
+        except OSError:
+            header_needed = False
+    df.to_csv(CSV_LOG, mode="a", index=False, header=header_needed)
 
 
 def call_generator_api(query: str, act: Optional[str], top_k_retrieve: int,
@@ -314,10 +345,11 @@ def ask_query():
 
         total_ms = round((time.perf_counter() - t0) * 1000, 2)
         top_results = hydrate_generator_sources(generator_payload, top_k_out)
+        model_answer = generator_payload.get("answer")
         resp = {
             "request_id": req_id,
             "query": query,
-            "answer": generator_payload.get("answer"),
+            "answer": model_answer,
             "top_results": top_results,
             "timings": generator_payload.get("timings") or {"total_ms": total_ms},
             "proxy": True
@@ -326,20 +358,7 @@ def ask_query():
             resp["context"] = build_context(top_results)
 
         top = top_results[0] if top_results else {}
-        log_row = {
-            "RequestID": req_id,
-            "Query": query,
-            "Top_Act": top.get("act", ""),
-            "Top_Section": top.get("section", ""),
-            "Top_Text": (top.get("text", "") or "")[:500],
-            "Top_Score_Before": top.get("score_before", ""),
-            "Top_Score_After": top.get("score_after", ""),
-            "Embed_ms": None,
-            "Chroma_ms": None,
-            "Rerank_ms": None,
-            "Total_ms": total_ms,
-            "Backend": "proxy"
-        }
+        log_row = build_query_log_row(query, top, model_answer, total_ms)
         try:
             log_to_csv(log_row)
         except Exception as e:
@@ -362,20 +381,7 @@ def ask_query():
     total_ms = round((time.perf_counter() - t0) * 1000, 2)
     top = rows_after[0] if rows_after else {}
 
-    log_row = {
-        "RequestID": req_id,
-        "Query": query,
-        "Top_Act": top.get("act", ""),
-        "Top_Section": top.get("section", ""),
-        "Top_Text": (top.get("text", "") or "")[:500],
-        "Top_Score_Before": top.get("score_before", ""),
-        "Top_Score_After": top.get("score_after", ""),
-        "Embed_ms": embed_ms,
-        "Chroma_ms": chroma_ms,
-        "Rerank_ms": rerank_ms,
-        "Total_ms": total_ms,
-        "Backend": "retrieval-only"
-    }
+    log_row = build_query_log_row(query, top, None, total_ms)
     try:
         log_to_csv(log_row)
     except Exception as e:
