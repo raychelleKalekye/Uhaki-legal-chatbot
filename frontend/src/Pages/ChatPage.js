@@ -10,37 +10,40 @@ const ChatPage = ({ registerClear }) => {
 
   const generateId = () => `${Date.now()}-${Math.random().toString(36).substr(2, 5)}`;
 
-  // Load messages
+  
   useEffect(() => {
     const saved = localStorage.getItem("uhaki_chat_history");
     if (saved) {
       setMessages(JSON.parse(saved));
     } else {
-      setMessages([{ id: generateId(), sender: 'uhaki', text: 'Hello, I’m Uhaki, a legal assistant. How may I help you?' }]);
+      setMessages([
+        { id: generateId(), sender: 'uhaki', text: 'Hello, I’m Uhaki, a legal assistant. How may I help you?' }
+      ]);
     }
   }, []);
 
-  // Save messages
+  
   useEffect(() => {
     if (messages.length > 0) {
       localStorage.setItem("uhaki_chat_history", JSON.stringify(messages));
     }
   }, [messages]);
 
-  // Register clear chat handler
+
   useEffect(() => {
     if (registerClear) {
       registerClear.current = () => {
         const confirmClear = window.confirm("Are you sure you want to clear this chat?");
         if (confirmClear) {
           localStorage.removeItem("uhaki_chat_history");
-          setMessages([{ id: generateId(), sender: 'uhaki', text: 'Hello, I’m Uhaki, a legal assistant. How may I help you?' }]);
+          setMessages([
+            { id: generateId(), sender: 'uhaki', text: 'Hello, I’m Uhaki, a legal assistant. How may I help you?' }
+          ]);
         }
       };
     }
   }, [registerClear]);
 
-  // Adjust bottom bar height
   useLayoutEffect(() => {
     const setBBHeight = () => {
       const h = bottomRef.current?.offsetHeight || 0;
@@ -71,51 +74,49 @@ const ChatPage = ({ registerClear }) => {
 
       const data = await response.json();
       const results = Array.isArray(data.top_results) ? data.top_results : [];
+      const answer = data.answer || "I'm sorry, I couldn’t find a clear answer from the available acts.";
 
-      if (results.length === 0) {
-        setMessages((prev) => [
-          ...prev,
-          {
-            id: generateId(),
-            sender: 'uhaki',
-            text: "I couldn't find a relevant section. Try rephrasing or name the Act, e.g., '… under the Employment Act'.",
-          },
-        ]);
-        return;
-      }
-
-      const top = results.slice(0, 3).map((r, i) => {
-        const m = r.metadata || {};
-        const act = m.act || '—';
-        const section = m.section || '—';
-        const score = (r.score != null) ? ` (score ${r.score.toFixed(3)})` : '';
-        const snip = (r.text || '').replace(/\s+/g, ' ').slice(0, 300);
-        return `#${i + 1} ${act} – ${section}${score}\n${snip}${snip.length === 300 ? '…' : ''}`;
-      }).join('\n\n');
-
-      const botMessage = {
+      
+      const uhakiAnswer = {
         id: generateId(),
         sender: 'uhaki',
-        text:
-          (data.act_filter ? `Act filter: ${data.act_filter}\n\n` : '') +
-          top,
+        text: answer,
       };
+      setMessages((prev) => [...prev, uhakiAnswer]);
 
-      setMessages((prev) => [...prev, botMessage]);
+     
+      if (results.length > 0) {
+        const sources = results.slice(0, 3).map((r, i) => {
+          const act = r.act || '—';
+          const section = r.section || '—';
+          const snip = (r.text || '').replace(/\s+/g, ' ').slice(0, 200);
+          return `#${i + 1} ${act} – ${section}\n${snip}${snip.length === 200 ? '…' : ''}`;
+        }).join('\n\n');
+
+        const sourcesMessage = {
+          id: generateId(),
+          sender: 'uhaki',
+          text: `Sources I used:\n\n${sources}`,
+        };
+        setMessages((prev) => [...prev, sourcesMessage]);
+      }
 
     } catch (error) {
       console.error('Error sending query:', error);
       setMessages((prev) => [
         ...prev,
-        { id: generateId(), sender: 'uhaki', text: 'Sorry, there was an error processing your query.' },
+        {
+          id: generateId(),
+          sender: 'uhaki',
+          text: 'Sorry, there was an error processing your query. Please try again shortly.',
+        },
       ]);
     }
   };
 
+  
   return (
     <div className="ChatPage">
-    
-
       <main className="ChatScroll">
         <MessageList messages={messages} />
       </main>
