@@ -27,8 +27,8 @@ Kenyan statutes are lengthy, updated frequently, and distributed as PDFs that ar
 ## Project flow
 1. **Collect & clean Acts** - Raw gazette PDFs are normalized into JSON and CSV artifacts under `data/`.
 2. **Segment & embed** - Scripts in `data/scripts/` split sections into overlapping context windows and encode them with `intfloat/e5-base-v2`.
-3. **Persist vectors** - Embeddings and metadata land inside a persistent ChromaDB collection that can be rebuilt deterministically.
-4. **Serve retrieval** - `backend/app.py` exposes `/health` and `/askQuery`, optionally fusing results with a cross-encoder reranker and/or an upstream generator API.
+3. **Persist vectors** - Embeddings and metadata land inside a persistent ChromaDB collection.
+4. **Server retrieval** - `backend/app.py` exposes and `/askQuery`, optionally fusing results with a cross-encoder reranker.
 5. **Conversational UI** - The React client in `frontend/` renders chat history, sources, and disclaimers, persisting sessions in `localStorage`.
 6. **Evaluate & iterate** - Jupyter notebooks and CSV logs in `testing/` and `outputs/` capture retrieval metrics, QA quality, and temporal usage for continuous improvement.
 
