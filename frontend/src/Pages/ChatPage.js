@@ -17,7 +17,7 @@ const ChatPage = ({ registerClear }) => {
       setMessages(JSON.parse(saved));
     } else {
       setMessages([
-        { id: generateId(), sender: 'uhaki', text: 'Hello, I�?Tm Uhaki, a legal assistant. How may I help you?' }
+        { id: generateId(), sender: 'uhaki', text: 'Hello, I am Uhaki, a legal assistant. How may I help you?' }
       ]);
     }
   }, []);
