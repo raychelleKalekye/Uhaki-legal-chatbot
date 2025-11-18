@@ -165,6 +165,3 @@ curl -X POST http://localhost:5000/askQuery ^
 - Kenyan legal documents courtesy of the participating research group and open government sources stored under `data/`.
 - SentenceTransformer checkpoints (`intfloat/e5-base-v2`, `cross-encoder/ms-marco-MiniLM-L-6-v2`) via Hugging Face.
 - Evaluation annotations powered by the CSV suites in `testing/` plus visualizations inside `testing/evaluationPlots/`.
-
-## License
-Specify the project license or add a `LICENSE` file to formalize usage rights.
