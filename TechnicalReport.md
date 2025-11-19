@@ -20,17 +20,17 @@
 
 - **Storing data**
 - Stored data in chroma vector database using the following attributes:
-   [] act – The name of the Act from which this text is extracted.
-   [] part - The structural division within the act
-   [] section - the full section label exactly as it appears in the Act.
-   [] section_number - numeric identifier of the section
-   [] section_title - short tile of the section
-   [] section path- navigation path showing where the chunk sits in the act hierarchy
-   [] chunk_index - the position of this chunk within the section
-   [] chunk_id - a unique ID assigned to the chunk within the entire corpus
-   [] text - actual chunk content
-   [] previous chunk ID
-   [] next chunk ID
+   act – The name of the Act from which this text is extracted.
+   part - The structural division within the act
+   section - the full section label exactly as it appears in the Act.
+   section_number - numeric identifier of the section
+   section_title - short tile of the section
+   section path- navigation path showing where the chunk sits in the act hierarchy
+   chunk_index - the position of this chunk within the section
+   chunk_id - a unique ID assigned to the chunk within the entire corpus
+   text - actual chunk content
+   previous chunk ID
+   next chunk ID
   
 Example: {
     "act": "Constitution of Kenya",
