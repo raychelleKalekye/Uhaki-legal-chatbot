@@ -59,7 +59,7 @@ Example: {
     - Non-substantive formatting markers (manual line breaks inside sentences, stray bullets)
 
 - Short summary:
-  - “After cleaning, the dataset was more consistent and it became much easier to separate the Acts into clean sections for embedding and retrieval.”
+  - After cleaning, the dataset was more consistent and it became much easier to separate the Acts into clean sections for embedding and retrieval.
 
 ---
 
@@ -182,7 +182,7 @@ List your main scores, for example:
 
 | Trial   | Act_Precision@6 | Act_Recall@6 | MRR_act@6 |
 |---------|---------|---------|-----------|
-| Trial 1 |  0.1383   |       0.83     |     0.6665   |
+| Trial 1 |  0.1383 | 0.83    |  0.6665   |
 | Trial 2 | 0.1394  | 0.8367  | 0.7008    |
 | Trial 3 | 0.1133  | 0.6800  | 0.6159    |
 | Trial 4 | 0.1300  | 0.7800  | 0.6162    |
