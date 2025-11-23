@@ -149,17 +149,44 @@ Uhaki mostly relies on pre-trained models and does **not** train a new retrieval
     - `Qwen/Qwen3-8B-Instruct` for answer generation.
   - No custom tokens or special markers were added.
 
-- **Making retrieval better:**
-  | Trial | Data cleaning – what changed | Retrieval – what changed | Evaluation – what changed |
-|-------|------------------------------|---------------------------|---------------------------|
-| 1 | Basic join on raw `question` text. Split `top6_sections` by comma into section + heading. No number normalization, no removing duplicates. | Only dense retrieval from Chroma + cross-encoder rerank. No BM25, no act/heading tricks. | Simple Hit@k, P@6, R@6, MRR using exact `section` / `act` string matches against Top-6. |
-| 2 | New normalized question key (lowercase, spaces cleaned) to merge questions + answers into one Q&A file. Top-6 sections still split in a simple way (no numeric cleanup, no dedupe). | Adds BM25 on full text and combines it with dense scores before cross-encoder. Still one BM25 signal, light weighting, no strong priors. | Same metrics as Trial 1, but now using a more robust list parser to read Top-6 from the CSV. |
-| 3 | First “heavy” clean: treat Top-6 as real lists, extract only the main section number (e.g. `45(5)(b)` → `45`), split `"NN – Heading"` safely, and remove duplicate section numbers while keeping order. | Still dense + BM25 + cross-encoder, but now adds heading priors (boost good headings, strongly push down `[Spent]/repealed` ones) and an act prior from top-scoring acts. | Same metrics, but now using normalized section numbers and the cleaned Top-6 lists; can also rebuild Top-6 acts from IDs if needed. |
-| 4 | Same heavy cleaning as Trial 3, but run on Trial-4 results and saved to its own evaluation CSV. | Changes the weights: BM25 is given more weight than dense; cross-encoder reranks a bigger pool; adds act-gating (check if one act clearly dominates) and softer heading penalties. | Same metric formulas; just reading from the cleaned Trial-4 evaluation file. |
-| 5 | Same heavy cleaning again, now for the Trial-5 CSV and saved as `...Trial5.csv`. | Adds **two** BM25s: one on full text and one on headings. These two plus dense are all fused before cross-encoder. | Same evaluation code as Trial 4, now applied to the Trial-5 cleaned file. |
-| 6 | Same heavy cleaning as Trials 3–5, now on the Trial-6 CSV and saved as `...Trial6.csv`. | Uses doc-BM25, heading-BM25, and dense with new weights, increases cross-encoder pool, makes CE more dominant in the final score, and adds a soft act prior term on top of act-gating. | Same type of metrics (Hit@k, P@6, R@6, MRR), but wrapped in a helper that returns them as dictionaries instead of just printing. |
+-**Making retrieval better**
 
-  
+* **Trial 1**
+
+  * **Data cleaning – what changed:** Basic join on raw `question` text. Split `top6_sections` by comma into section + heading. No number normalization, no removing duplicates.
+  * **Retrieval – what changed:** Only dense retrieval from Chroma + cross-encoder rerank. No BM25, no act/heading tricks.
+  * **Evaluation – what changed:** Simple Hit@k, P@6, R@6, MRR using exact `section` / `act` string matches against Top-6.
+
+* **Trial 2**
+
+  * **Data cleaning – what changed:** New normalized question key (lowercase, spaces cleaned) to merge questions + answers into one Q&A file. Top-6 sections still split in a simple way (no numeric cleanup, no dedupe).
+  * **Retrieval – what changed:** Adds BM25 on full text and combines it with dense scores before cross-encoder. Still one BM25 signal, light weighting, no strong priors.
+  * **Evaluation – what changed:** Same metrics as Trial 1, but now using a more robust list parser to read Top-6 from the CSV.
+
+* **Trial 3**
+
+  * **Data cleaning – what changed:** First “heavy” clean: treat Top-6 as real lists, extract only the main section number (e.g. `45(5)(b)` → `45`), split `NN – Heading` safely, and remove duplicate section numbers while keeping order.
+  * **Retrieval – what changed:** Still dense + BM25 + cross-encoder, but now adds heading priors (boost good headings, strongly push down `[Spent]/repealed` ones) and an act prior from top-scoring acts.
+  * **Evaluation – what changed:** Same metrics, but now using normalized section numbers and the cleaned Top-6 lists; can also rebuild Top-6 acts from IDs if needed.
+
+* **Trial 4**
+
+  * **Data cleaning – what changed:** Same heavy cleaning as Trial 3, but run on Trial-4 results and saved to its own evaluation CSV.
+  * **Retrieval – what changed:** Changes the weights: BM25 is given more weight than dense; cross-encoder reranks a bigger pool; adds act-gating (check if one act clearly dominates) and softer heading penalties.
+  * **Evaluation – what changed:** Same metric formulas; just reading from the cleaned Trial-4 evaluation file.
+
+* **Trial 5**
+
+  * **Data cleaning – what changed:** Same heavy cleaning again, now for the Trial-5 CSV and saved as `...Trial5.csv`.
+  * **Retrieval – what changed:** Adds two BM25s: one on full text and one on headings. These two plus dense are all fused before cross-encoder.
+  * **Evaluation – what changed:** Same evaluation code as Trial 4, now applied to the Trial-5 cleaned file.
+
+* **Trial 6**
+
+  * **Data cleaning – what changed:** Same heavy cleaning as Trials 3–5, now on the Trial-6 CSV and saved as `...Trial6.csv`.
+  * **Retrieval – what changed:** Uses doc-BM25, heading-BM25, and dense with new weights, increases cross-encoder pool, makes CE more dominant in the final score, and adds a soft act prior term on top of act-gating.
+  * **Evaluation – what changed:** Same type of metrics (Hit@k, P@6, R@6, MRR), but wrapped in a helper that returns them as dictionaries instead of just printing.
+
 
 - **Evaluation-driven tuning:**
   - For each trial, we measured:
